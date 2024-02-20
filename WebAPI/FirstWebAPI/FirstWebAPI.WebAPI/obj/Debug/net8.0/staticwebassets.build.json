@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IvGQiZPGWtdd6teK3oQAs3zOvsiTQUPEtqa7Y23ndbM=",
+  "Source": "FirstWebAPI.WebAPI",
+  "BasePath": "_content/FirstWebAPI.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

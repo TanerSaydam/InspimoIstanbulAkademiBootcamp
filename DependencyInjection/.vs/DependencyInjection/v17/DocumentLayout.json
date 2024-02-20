@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\DependencyInjection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04CE6C73-69C9-4AE9-B37F-4F731B3ADB48}|DependencyInjection.WebAPI\\DependencyInjection.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\dependencyinjection\\dependencyinjection.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CE6C73-69C9-4AE9-B37F-4F731B3ADB48}|DependencyInjection.WebAPI\\DependencyInjection.WebAPI.csproj|solutionrelative:dependencyinjection.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CE6C73-69C9-4AE9-B37F-4F731B3ADB48}|DependencyInjection.WebAPI\\DependencyInjection.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\dependencyinjection\\dependencyinjection.webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CE6C73-69C9-4AE9-B37F-4F731B3ADB48}|DependencyInjection.WebAPI\\DependencyInjection.WebAPI.csproj|solutionrelative:dependencyinjection.webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\DependencyInjection\\DependencyInjection.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DependencyInjection.WebAPI\\Program.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\DependencyInjection\\DependencyInjection.WebAPI\\Program.cs",
+              "RelativeToolTip": "DependencyInjection.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:49:10.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\DependencyInjection\\DependencyInjection.WebAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "DependencyInjection.WebAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\DependencyInjection\\DependencyInjection.WebAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "DependencyInjection.WebAPI\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T15:49:17.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1511,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

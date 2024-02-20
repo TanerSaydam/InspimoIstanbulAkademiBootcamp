@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|c:\\inspimo\u0130stanbulakademibootcamp\\webapi\\firstwebapi\\firstwebapi.webapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|solutionrelative:firstwebapi.webapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|c:\\inspimo\u0130stanbulakademibootcamp\\webapi\\firstwebapi\\firstwebapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|solutionrelative:firstwebapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|c:\\inspimo\u0130stanbulakademibootcamp\\webapi\\firstwebapi\\firstwebapi.webapi\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3D51E7-778C-4E3B-BE3E-023F4D325A2A}|FirstWebAPI.WebAPI\\FirstWebAPI.WebAPI.csproj|solutionrelative:firstwebapi.webapi\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Extensions.cs",
+              "RelativeDocumentMoniker": "FirstWebAPI.WebAPI\\Extensions.cs",
+              "ToolTip": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Extensions.cs",
+              "RelativeToolTip": "FirstWebAPI.WebAPI\\Extensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:55:54.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Controllers\\Test.cs",
+              "RelativeDocumentMoniker": "FirstWebAPI.WebAPI\\Controllers\\Test.cs",
+              "ToolTip": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Controllers\\Test.cs",
+              "RelativeToolTip": "FirstWebAPI.WebAPI\\Controllers\\Test.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:52:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FirstWebAPI.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Inspimo\u0130stanbulAkademiBootcamp\\WebAPI\\FirstWebAPI\\FirstWebAPI.WebAPI\\Program.cs",
+              "RelativeToolTip": "FirstWebAPI.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:48:37.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1511,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

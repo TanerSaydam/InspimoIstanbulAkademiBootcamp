@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-20T16:52:29.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.json",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-20T16:52:24.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T16:51:18.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T16:50:13.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1511,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
