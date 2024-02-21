@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\",
+  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\entityframeworkcore\\entityframeworkcore.webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\entityframeworkcore\\entityframeworkcore.webapi\\dtos\\updatepersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\dtos\\updatepersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\entityframeworkcore\\entityframeworkcore.webapi\\models\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\models\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\.net\\entityframeworkcore\\entityframeworkcore.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\entityframeworkcore\\entityframeworkcore.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\entityframeworkcore\\entityframeworkcore.webapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAF90A98-E624-4217-B1CB-D0F9A2738819}|EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj|solutionrelative:entityframeworkcore.webapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.Development.json",
-              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-20T16:52:29.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\appsettings.json",
-              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-20T16:52:24.414Z",
+              "Title": "UpdatePersonelDto.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\DTOs\\UpdatePersonelDto.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\DTOs\\UpdatePersonelDto.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\DTOs\\UpdatePersonelDto.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\DTOs\\UpdatePersonelDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T16:51:10.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Title": "Personel.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Models\\Personel.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Models\\Personel.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Models\\Personel.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Models\\Personel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T16:51:18.062Z",
+              "WhenOpened": "2024-02-21T16:50:12.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T16:50:13.699Z",
+              "WhenOpened": "2024-02-21T16:49:21.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Program.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Program.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T16:44:57.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.WebAPI\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "EntityFrameworkCore.WebAPI\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T16:43:46.336Z",
               "EditorCaption": ""
             }
           ]

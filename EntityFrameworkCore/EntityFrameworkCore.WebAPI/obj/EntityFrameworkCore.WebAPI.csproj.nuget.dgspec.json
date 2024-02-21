@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj": {}
+    "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj": {
+    "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj",
+        "projectUniqueName": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj",
         "projectName": "EntityFrameworkCore.WebAPI",
-        "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj",
+        "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\EntityFrameworkCore.WebAPI.csproj",
         "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
-        "outputPath": "C:\\InspimoIstanbulAkademiBootcamp\\.NET\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\obj\\",
+        "outputPath": "C:\\InspimoIstanbulAkademiBootcamp\\EntityFrameworkCore\\EntityFrameworkCore.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -46,11 +47,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
             },
