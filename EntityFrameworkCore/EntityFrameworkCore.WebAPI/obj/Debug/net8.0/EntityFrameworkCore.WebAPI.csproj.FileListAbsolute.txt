@@ -135,3 +135,7 @@ C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI
 C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\obj\Debug\net8.0\EntityFrameworkCore.WebAPI.pdb
 C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\obj\Debug\net8.0\EntityFrameworkCore.WebAPI.genruntimeconfig.cache
 C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\obj\Debug\net8.0\ref\EntityFrameworkCore.WebAPI.dll
+C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\InspimoIstanbulAkademiBootcamp\EntityFrameworkCore\EntityFrameworkCore.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

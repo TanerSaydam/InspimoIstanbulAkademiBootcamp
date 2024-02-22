@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFrameworkCore.WebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240221145348_mg1")]
+    [Migration("20240222153100_mg1")]
     partial class mg1
     {
         /// <inheritdoc />
@@ -33,17 +33,20 @@ namespace EntityFrameworkCore.WebAPI.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(500)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(100)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Personels");
                 });

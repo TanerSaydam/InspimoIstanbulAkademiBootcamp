@@ -16,18 +16,31 @@ public class ValuesController(
     //ctrl m + o
     public IActionResult GetAll()
     {
-        List<Personel> response = 
+        List<Personel> response =
             context.Personels
             .AsNoTracking()
-            .OrderBy(p=> p.FirstName)
-            .ToList();  
+            .OrderBy(p => p.FirstName)
+            .ToList();
 
         return Ok(response);
     }
 
     [HttpPost]
-    public IActionResult Create(CreatePersonelDto request)
-    {
+    public IActionResult Create([FromForm] CreatePersonelDto request)
+    {        
+        //CreatePersonelDtoValidator validator = new();
+        //ValidationResult validationResult = validator.Validate(request);
+        //if (!validationResult.IsValid)
+        //{
+        //    return BadRequest(validationResult.Errors.Select(s => s.ErrorMessage));
+        //}
+
+        bool isEmailExists = context.Personels.Any(p => p.Email == request.Email);
+        if (isEmailExists)
+        {
+            return BadRequest(new { Message = "Bu mail adresi daha önce kullanılmış" });
+        }
+
         Personel personel = mapper.Map<Personel>(request);
 
         context.Personels.Add(personel);
@@ -39,11 +52,27 @@ public class ValuesController(
     [HttpPost] //Create Read Update Delete => CRUD operations
     public IActionResult Update(UpdatePersonelDto request)
     {
+        //UpdatePersonelDtoValidator validator = new();
+        //ValidationResult validationResult = validator.Validate(request);
+        //if (!validationResult.IsValid)
+        //{
+        //    return BadRequest(validationResult.Errors.Select(s => s.ErrorMessage));
+        //}       
+
         Personel? personel = context.Personels.FirstOrDefault(p => p.Id == request.Id);
-        
-        if(personel is null)
+
+        if (personel is null)
         {
             return StatusCode(500, new { Message = "Bu personel kaydı bulunamadı!" });
+        }
+
+        if (personel.Email != request.Email)
+        {
+            bool isEmailExists = context.Personels.Any(p => p.Email == request.Email);
+            if (isEmailExists)
+            {
+                return BadRequest(new { Message = "Bu mail adresi daha önce kullanılmış" });
+            }
         }
 
         mapper.Map(request, personel);
@@ -54,7 +83,7 @@ public class ValuesController(
         return Ok(new { Message = "Personel kaydı başarıyla güncellendi" });
     }
 
-    [HttpGet]
+    [HttpGet("{id}")]
     public IActionResult DeleteById(Guid id)
     {
         Personel? personel = context.Personels.Find(id);
