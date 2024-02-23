@@ -1,1 +1,232 @@
-<p>home works!</p>
+<nav aria-label="breadcrumb" class="d-flex justify-content-between mt-2">
+    <h4>Home Page</h4>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+</nav>
+
+<div class="form-group mt-2">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-9">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal">
+                    <i class="fa-solid fa-plus"></i>
+                    Add Personel
+                </button>
+            </div>
+            <div class="col-3" style="position: relative;">
+                <i class="fa-solid fa-magnifying-glass" style="position: absolute; bottom: 10px; left: 25px;"></i>
+                <input type="search" class="form-control" placeholder="Search something..." style="padding-left: 35px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mt-1 table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Avatar</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Start Date</th>
+                    <th>Salary</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>District</th>
+                    <th>Full Address</th>
+                    <th>CV</th>
+                    <th>Certificates</th>
+                    <th>Diploma</th>
+                    <th>Health Report</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(personel of data;track personel){
+                <tr>
+                    <td>{{ $index + 1 }}</td>
+                    <td>
+                        <img src="{{personel.avatar}}" width="50">
+                    </td>
+                    <td>{{personel.firstName}}</td>
+                    <td>{{personel.lastName}}</td>
+                    <td>{{personel.startDate | date:'dd.MM.yyyy'}}</td>
+                    <td>{{personel.salary | trCurrency: '₺': true}}</td>
+                    <td>{{personel.phoneNumber}}</td>
+                    <td>{{personel.email}}</td>
+                    <td>{{personel.city}}</td>
+                    <td>{{personel.district}}</td>
+                    <td>{{personel.fullAddress}}</td>
+                    <td class="text-center">
+                        @if(personel.healtReport != ""){
+                        <a href="{{personel.cv}}" target="_blank" title="{{personel.cv}}">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if(personel.certificates.length > 0){
+                        @for(certifcate of personel.certificates; track certifcate){
+                        <a class="me-1" href="{{personel.certificates}}" target="_blank" title="{{certifcate}}">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                        }
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if(personel.healtReport != ""){
+                        <a href="{{personel.diploma}}" target="_blank" title="{{personel.diploma}}">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if(personel.healtReport != ""){
+                        <a href="{{personel.healtReport}}" target="_blank" title="{{personel.healtReport}}">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                        }
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info btn-sm">
+                            <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button class="btn btn-outline-danger btn-sm ms-1">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<!-- Add Modal -->
+<div class="modal fade" id="addModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
+    data-bs-keyboard="false">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Add Personel Form</h1>                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form #addForm="ngForm" (ngSubmit)="add(addForm)">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row form-group">
+                                <div class="col-6">
+                                    <!-- First name -->
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input [(ngModel)]="addModel.firstName" name="firstName" type="text" class="form-control">
+                                    </div>
+                                     <!-- Last Name -->
+                                     <div class="form-group mt-1">
+                                        <label>Last Name</label>
+                                        <input [(ngModel)]="addModel.lastName" name="lastName" type="text" class="form-control">
+                                    </div>
+                                    <!-- Email -->
+                                    <div class="form-group mt-1">
+                                        <label>Email</label>
+                                        <input [(ngModel)]="addModel.email" name="email" type="email" class="form-control">
+                                    </div>                                    
+                                </div>
+                                <div class="col-6">                                   
+                                    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <label>Phone Number</label>
+                                        <input [(ngModel)]="addModel.phoneNumber" name="phoneNumber" type="tel" class="form-control">
+                                    </div>
+                                    <!-- Start Date -->
+                                    <div class="form-group mt-1">
+                                        <label>Start Date</label>
+                                        <input type="date" class="form-control"
+                                             [(ngModel)]="addModel.startDate" name="startDate">
+                                    </div>
+                                    <!-- Salary -->
+                                    <div class="form-group mt-1">
+                                        <label>Salary</label>
+                                        <input [(ngModel)]="addModel.salary" name="salary" type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-group mt-2">
+                                <div class="col-6">
+                                    <!-- City -->
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <select [(ngModel)]="addModel.city" name="city" class="form-control">
+                                            <option>Select...</option>
+                                            <option>Kayseri</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <!-- District -->
+                                    <div class="form-group">
+                                        <label>District</label>
+                                        <select  [(ngModel)]="addModel.district" name="district" class="form-control">
+                                            <option>Select...</option>
+                                            <option>Kocasinan</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Full Address -->
+                            <div class="form-group mt-2">
+                                <label>Full Address</label>
+                                <textarea [(ngModel)]="addModel.fullAddress" name="fullAddress"  class="form-control"></textarea>
+                            </div>
+                            <div class="row form-group mt-1">
+                                <div class="col-3">
+                                    <!-- CV -->
+                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
+                                        <label>CV</label>
+                                        <i (click)="openCVFile()" class="fa-solid fa-upload cursor" style="font-size: 50px;"></i>
+                                        <input #cvFile style="display: none;" type="file" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <!-- Certificated -->
+                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
+                                        <label>Certificated</label>
+                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
+                                        <input style="display: none;" type="file" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <!-- Diploma -->
+                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
+                                        <label>Diploma</label>
+                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
+                                        <input style="display: none;" type="file" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <!-- Healt Report -->
+                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
+                                        <label>Healt Report</label>
+                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
+                                        <input style="display: none;" type="file" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img (click)="openAvatarFileInput()" [src]="addModel.avatar" class="avatar-img">
+                            <input (change)="setAvatarImage($event)" style="display: none;" #avatarFile id="avatar-file" type="file" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

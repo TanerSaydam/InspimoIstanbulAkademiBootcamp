@@ -1,5 +1,8 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
+## 23.02.2024
+- Angular ile Personel Uygulamasının Tasarımını Yapmaya Başladık
+
 ## 22.02.2024
 - Fluent Validation
 - Any Metodu
