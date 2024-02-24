@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Fy6RyYA7gr1/IotP/S8vLQteKpFUm7gwexghCt1u/gY=",
+  "Source": "PersonelServer",
+  "BasePath": "_content/PersonelServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PersonelServer\\wwwroot",
+      "Source": "PersonelServer",
+      "ContentRoot": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\",
+      "BasePath": "_content/PersonelServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -4,11 +4,11 @@ export class PersonelModel{
     firstName: string = "";
     lastName: string = "";
     startDate: string | null = "";
-    salary: number = 0;
+    salary: number = 17002;
     phoneNumber: string = "";
     email: string = "";
-    city: string = "";
-    district: string = "";
+    city: string = "Select...";
+    district: string = "Select...";
     fullAddress: string = "";
     cv: string = "";
     certificates: string[] = [];
@@ -16,7 +16,7 @@ export class PersonelModel{
     healtReport: string = "";  
     avatarFile:any | null = null;  
     cvFile:any | null = null;  
-    certificatedFile:any | null = null;  
+    certificatesFile:any | null = null;  
     diplomaFile:any | null = null;  
-    healtReportFile:any | null = null;  
+    healthReportFile:any | null = null;  
 }

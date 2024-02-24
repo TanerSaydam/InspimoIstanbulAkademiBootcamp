@@ -1,7 +1,20 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
+## 24.02.2024
+- Angular Tarafında Tasarımı İyileştirdik
+- Aşağıdaki NPM kütüphaneleri kurup uygulamamızda kullandık
+- ngx-dropzone
+- ng-select 
+- ngx-sweetaler2
+- ngx-toastr
+- ngx-mask
+- Validation kuralları yazıp form-validate npm paketi ile birleştirdik
+- Backend için .NET WebAPI projemizi oluşturduk
+- Personel kayıtı için Angular tarafında yakaladığımız değerleri backende yolladık
+- Backend de dosya kayıt işlemini yaptık
+
 ## 23.02.2024
-- Angular ile Personel Uygulamasının Tasarımını Yapmaya Başladık
+- Angular ile Personel uygulamasının tasarımını yapmaya başladık
 
 ## 22.02.2024
 - Fluent Validation
@@ -9,7 +22,7 @@
 - EF Core Index/Unique
 - Route Params/Query Params
 - From Body / From From
-- Angular ile Personel Uygulamasına Başladık
+- Angular ile Personel uygulamasına başladık
 
 ## 21.02.2024
 - EF Core DI ve OnConfiguring
@@ -19,7 +32,7 @@
 - Auto Mapper
 
 ## 20.02.2024
-- Kariyer Hedefi Ne Olmalı
+- Kariyer hedefi ne olmalı
 - WebAPI
 - Dependency Injection
 - EF Core

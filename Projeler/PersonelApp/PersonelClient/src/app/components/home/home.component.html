@@ -54,7 +54,7 @@
                     <td>{{personel.lastName}}</td>
                     <td>{{personel.startDate | date:'dd.MM.yyyy'}}</td>
                     <td>{{personel.salary | trCurrency: '₺': true}}</td>
-                    <td>{{personel.phoneNumber}}</td>
+                    <td>{{'+90' + (personel.phoneNumber | mask: '(000) 000 0000')}}</td>
                     <td>{{personel.email}}</td>
                     <td>{{personel.city}}</td>
                     <td>{{personel.district}}</td>
@@ -108,13 +108,13 @@
 <!-- Add Modal -->
 <div class="modal fade" id="addModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
     data-bs-keyboard="false">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5">Add Personel Form</h1>                
+                <h1 class="modal-title fs-5">Add Personel Form</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form #addForm="ngForm" (ngSubmit)="add(addForm)">
+            <form formValidate #addForm="ngForm" (ngSubmit)="add(addForm)" autocomplete="off">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-8">
@@ -123,35 +123,44 @@
                                     <!-- First name -->
                                     <div class="form-group">
                                         <label>First Name</label>
-                                        <input [(ngModel)]="addModel.firstName" name="firstName" type="text" class="form-control">
+                                        <input [(ngModel)]="addModel.firstName" name="firstName" type="text"
+                                            class="form-control" required minlength="3">
+                                        <div class="invalid-feedback"></div>
                                     </div>
-                                     <!-- Last Name -->
-                                     <div class="form-group mt-1">
+                                    <!-- Last Name -->
+                                    <div class="form-group mt-1">
                                         <label>Last Name</label>
-                                        <input [(ngModel)]="addModel.lastName" name="lastName" type="text" class="form-control">
+                                        <input [(ngModel)]="addModel.lastName" name="lastName" type="text"
+                                            class="form-control" required minlength="3">
+                                        <div class="invalid-feedback"></div>
                                     </div>
                                     <!-- Email -->
                                     <div class="form-group mt-1">
                                         <label>Email</label>
-                                        <input [(ngModel)]="addModel.email" name="email" type="email" class="form-control">
-                                    </div>                                    
+                                        <input [(ngModel)]="addModel.email" name="email" type="email"
+                                            class="form-control" required minlength="3">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
                                 </div>
-                                <div class="col-6">                                   
+                                <div class="col-6">
                                     <!-- Phone Number -->
                                     <div class="form-group">
                                         <label>Phone Number</label>
-                                        <input [(ngModel)]="addModel.phoneNumber" name="phoneNumber" type="tel" class="form-control">
+                                        <input prefix="+90" mask="(000) 000 0000" [(ngModel)]="addModel.phoneNumber" name="phoneNumber" type="text"
+                                            class="form-control" required minlength="10">
+                                        <div class="invalid-feedback"></div>
                                     </div>
                                     <!-- Start Date -->
                                     <div class="form-group mt-1">
                                         <label>Start Date</label>
-                                        <input type="date" class="form-control"
-                                             [(ngModel)]="addModel.startDate" name="startDate">
+                                        <input type="date" class="form-control" [(ngModel)]="addModel.startDate"
+                                            name="startDate">
                                     </div>
                                     <!-- Salary -->
                                     <div class="form-group mt-1">
                                         <label>Salary</label>
-                                        <input [(ngModel)]="addModel.salary" name="salary" type="text" class="form-control">
+                                        <input  mask="separator.2" thousandSeparator="." type="text" [(ngModel)]="addModel.salary" name="salary" type="text" class="form-control" required>
+                                        <div class="invalid-feedback"></div>
                                     </div>
                                 </div>
                             </div>
@@ -160,66 +169,100 @@
                                     <!-- City -->
                                     <div class="form-group">
                                         <label>City</label>
-                                        <select [(ngModel)]="addModel.city" name="city" class="form-control">
-                                            <option>Select...</option>
-                                            <option>Kayseri</option>
-                                        </select>
+                                        <ng-select (change)="getDistrictByCity($event)" [items]="cities"
+                                            bindLabel="name" bindValue="name" [(ngModel)]="addModel.city" name="city">
+                                        </ng-select>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <!-- District -->
                                     <div class="form-group">
                                         <label>District</label>
-                                        <select  [(ngModel)]="addModel.district" name="district" class="form-control">
-                                            <option>Select...</option>
-                                            <option>Kocasinan</option>
-                                        </select>
+                                        <ng-select [items]="districts" bindLabel="name" bindValue="name"
+                                            [(ngModel)]="addModel.district" name="district">
+                                        </ng-select>
                                     </div>
                                 </div>
                             </div>
-                             <!-- Full Address -->
+                            <!-- Full Address -->
                             <div class="form-group mt-2">
                                 <label>Full Address</label>
-                                <textarea [(ngModel)]="addModel.fullAddress" name="fullAddress"  class="form-control"></textarea>
-                            </div>
-                            <div class="row form-group mt-1">
-                                <div class="col-3">
-                                    <!-- CV -->
-                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
-                                        <label>CV</label>
-                                        <i (click)="openCVFile()" class="fa-solid fa-upload cursor" style="font-size: 50px;"></i>
-                                        <input #cvFile style="display: none;" type="file" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <!-- Certificated -->
-                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
-                                        <label>Certificated</label>
-                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
-                                        <input style="display: none;" type="file" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <!-- Diploma -->
-                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
-                                        <label>Diploma</label>
-                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
-                                        <input style="display: none;" type="file" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <!-- Healt Report -->
-                                    <div class="form-group d-flex" style="flex-direction: column; gap:5px">
-                                        <label>Healt Report</label>
-                                        <i class="fa-solid fa-upload" style="font-size: 50px;"></i>
-                                        <input style="display: none;" type="file" class="form-control">
-                                    </div>
-                                </div>
+                                <textarea required minlength="3" [(ngModel)]="addModel.fullAddress" name="fullAddress"
+                                    class="form-control"></textarea>
+                                    <div class="invalid-feedback"></div>
                             </div>
                         </div>
                         <div class="col-4">
                             <img (click)="openAvatarFileInput()" [src]="addModel.avatar" class="avatar-img">
-                            <input (change)="setAvatarImage($event)" style="display: none;" #avatarFile id="avatar-file" type="file" class="form-control">
+                            <input (change)="setAvatarImage($event)" style="display: none;" #avatarFile id="avatar-file"
+                                type="file" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- CV -->
+                            <div class="form-group">
+                                <label>CV</label>
+                                <ngx-dropzone (change)="setCVFile($event)" [multiple]="false">
+                                    <ngx-dropzone-label>Upload CV</ngx-dropzone-label>
+                                    @if(addModel.cvFile != undefined){
+                                    <ngx-dropzone-preview [removable]="true"
+                                        (removed)="removeCVFile(addModel.cvFile)">
+                                        <ngx-dropzone-label>{{ addModel.cvFile?.name.substring(0,10) }} ({{
+                                            addModel.cvFile?.type.substring(0,10) }})</ngx-dropzone-label>
+                                    </ngx-dropzone-preview>
+                                    }
+                                </ngx-dropzone>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!-- Certificates -->
+                            <div class="form-group">
+                                <label>Certificates</label>
+                                <ngx-dropzone (change)="setCertificatesFile($event)">
+                                    <ngx-dropzone-label>Upload Ceriticates</ngx-dropzone-label>
+                                    @for(certificated of addModel.certificatesFile; track certificated){
+                                    <ngx-dropzone-preview [removable]="true"
+                                        (removed)="removeCertificatesFile(certificated)">
+                                        <ngx-dropzone-label>{{ certificated?.name.substring(0,10) }} ({{
+                                            certificated?.type.substring(0,10) }})</ngx-dropzone-label>
+                                    </ngx-dropzone-preview>
+                                    }
+                                </ngx-dropzone>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!-- Diploma -->
+                            <div class="form-group">
+                                <label>Diploma</label>
+                                <ngx-dropzone (change)="setDiplomaFile($event)" [multiple]="false">
+                                    <ngx-dropzone-label>Upload Diploma</ngx-dropzone-label>
+                                    @if(addModel.diplomaFile != undefined){
+                                    <ngx-dropzone-preview [removable]="true"
+                                        (removed)="removeDiplomaFile(addModel.diplomaFile)">
+                                        <ngx-dropzone-label>{{ addModel.diplomaFile?.name.substring(0,10) }} ({{
+                                            addModel.diplomaFile?.type.substring(0,10) }})</ngx-dropzone-label>
+                                    </ngx-dropzone-preview>
+                                    }
+                                </ngx-dropzone>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!-- Healt Report -->
+                            <div class="form-group">
+                                <label>Healt Report</label>
+                                <ngx-dropzone (change)="setHealthFile($event)" [multiple]="false">
+                                    <ngx-dropzone-label>Upload Health Reaport!</ngx-dropzone-label>
+                                    @if(addModel.healthReportFile != undefined){
+                                    <ngx-dropzone-preview [removable]="true"
+                                        (removed)="removeHealthFile(addModel.healthReportFile)">
+                                        <ngx-dropzone-label>{{ addModel.healthReportFile?.name.substring(0,10) }}
+                                            ({{ addModel.healthReportFile?.type.substring(0,10)
+                                            }})</ngx-dropzone-label>
+                                    </ngx-dropzone-preview>
+                                    }
+                                </ngx-dropzone>
+                            </div>
                         </div>
                     </div>
                 </div>
