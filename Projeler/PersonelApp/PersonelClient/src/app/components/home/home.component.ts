@@ -66,6 +66,8 @@ export class HomeComponent {
     //this.addModel.avatar = "/assets/upload.jpeg";
     this.addModel.avatar = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";
     this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");
+
+    this.http.get("https://localhost:7295/api/Personels/Get").subscribe(res=> console.log(res));
   }
 
   getDistrictByCity(event: any) {
@@ -159,24 +161,24 @@ export class HomeComponent {
       formData.append("district",this.addModel.district);
       formData.append("fullAddress",this.addModel.fullAddress);
 
-      if(this.addModel.avatarFile !== undefined){
+      if(this.addModel.avatarFile !== null){
         formData.append("avatarFile",this.addModel.avatarFile,this.addModel.avatarFile.name);
       }
       
-      if(this.addModel.cvFile !== undefined){
+      if(this.addModel.cvFile !== null){
         formData.append("cvFile",this.addModel.cvFile,this.addModel.cvFile.name);
       }
       
-      if(this.addModel.diplomaFile !== undefined){
+      if(this.addModel.diplomaFile !== null){
         formData.append("diplomaFile",this.addModel.diplomaFile,this.addModel.diplomaFile.name);
       }
       
-      if(this.addModel.healthReportFile !== undefined){
+      if(this.addModel.healthReportFile !== null){
         formData.append("healthReportFile",this.addModel.healthReportFile,this.addModel.healthReportFile.name);
       }
       
 
-      if(this.addModel.certificatesFile !== undefined){
+      if(this.addModel.certificatesFile !== null){
         for(let certificate of this.addModel.certificatesFile){
           formData.append("certificateFiles",certificate,certificate.name);
         }   

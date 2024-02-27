@@ -5,7 +5,7 @@ using PersonelServer.DTOs;
 namespace PersonelServer.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
-public class PersonelsController : ControllerBase
+public sealed class PersonelsController : ControllerBase
 {
     [HttpPost]
     public IActionResult Create([FromForm] CreatePersonelDto request)
@@ -48,5 +48,6 @@ public class PersonelsController : ControllerBase
 
 
         return Ok();
-    }
+    }    
+
 }

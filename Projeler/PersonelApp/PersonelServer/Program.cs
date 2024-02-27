@@ -1,28 +1,63 @@
+using DefaultCorsPolicyNugetPackage;
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using PersonelServer.Context;
+using System.Net;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //CORS politiasý Cross Origin 
 
-builder.Services.AddCors(configuration =>
+builder.Services.AddDefaultCors();
+
+//builder.Services.AddCors(configuration =>
+//{
+//    configuration.AddDefaultPolicy(policy =>
+//    {
+//       // policy.WithMethods("GET","POST").WithHeaders("Value").AllowCredentials().WithOrigins("https://localhost:4200");
+//       policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+//    });
+//});
+
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<ApplicationDbContext>();
+    //.AddSqlServer(builder.Configuration.GetConnectionString("SqlServer") ?? "");
+
+builder.Services.AddHealthChecksUI(options =>
 {
-    configuration.AddDefaultPolicy(policy =>
-    {
-        policy.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
-    });
+    options.AddHealthCheckEndpoint("HealthCheck API", "/healthcheck");
+})
+  .AddInMemoryStorage();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"));
 });
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapHealthChecks("healthcheck", new HealthCheckOptions()
+{
+    ResultStatusCodes =
+    {
+        [HealthStatus.Healthy] = StatusCodes.Status200OK,
+        [HealthStatus.Degraded] = StatusCodes.Status400BadRequest,
+        [HealthStatus.Unhealthy] = StatusCodes.Status500InternalServerError,
+    },
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 app.UseCors();
 
@@ -33,5 +68,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHealthChecksUI(options => options.UIPath = "/dashboard");
 
 app.Run();

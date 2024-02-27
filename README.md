@@ -1,5 +1,12 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
+## 27.02.2024
+- EF Core
+- sealed keywordü
+- record
+- Sonar Qube
+- Health Check
+
 ## 24.02.2024
 - Angular Tarafında Tasarımı İyileştirdik
 - Aşağıdaki NPM kütüphaneleri kurup uygulamamızda kullandık
