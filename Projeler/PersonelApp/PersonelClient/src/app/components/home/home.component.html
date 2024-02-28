@@ -27,8 +27,8 @@
                 <tr>
                     <th>#</th>
                     <th>Avatar</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
+                    <th>Name</th>
+                    <th>Identity Number</th>
                     <th>Start Date</th>
                     <th>Salary</th>
                     <th>Phone Number</th>
@@ -48,10 +48,14 @@
                 <tr>
                     <td>{{ $index + 1 }}</td>
                     <td>
-                        <img src="{{personel.avatar}}" width="50">
+                        @if(personel.avatarUrl === null){
+                            <img src="https://i2.wp.com/vdostavka.ru/wp-content/uploads/2019/05/no-avatar.png?fit=512%2C512&ssl=1" width="50">
+                        }@else {
+                            <img src="https://localhost:7295/avatars/{{personel.avatarUrl}}" width="50">
+                        }
                     </td>
-                    <td>{{personel.firstName}}</td>
-                    <td>{{personel.lastName}}</td>
+                    <td>{{personel.fullName}}</td>
+                    <td>{{personel.identityNumber}}</td>
                     <td>{{personel.startDate | date:'dd.MM.yyyy'}}</td>
                     <td>{{personel.salary | trCurrency: '₺': true}}</td>
                     <td>{{'+90' + (personel.phoneNumber | mask: '(000) 000 0000')}}</td>
@@ -60,33 +64,46 @@
                     <td>{{personel.district}}</td>
                     <td>{{personel.fullAddress}}</td>
                     <td class="text-center">
-                        @if(personel.healtReport != ""){
-                        <a href="{{personel.cv}}" target="_blank" title="{{personel.cv}}">
-                            <i class="fa-solid fa-file"></i>
-                        </a>
+                        @if(personel.cvUrl != null){
+                            <a 
+                                href="https://localhost:7295/cvs/{{personel.cvUrl}}" 
+                                target="_blank" 
+                                title="{{personel.cvUrl}}">
+                                <i class="fa-solid fa-file"></i>
+                            </a>
                         }
                     </td>
                     <td class="text-center">
-                        @if(personel.certificates.length > 0){
-                        @for(certifcate of personel.certificates; track certifcate){
-                        <a class="me-1" href="{{personel.certificates}}" target="_blank" title="{{certifcate}}">
-                            <i class="fa-solid fa-file"></i>
-                        </a>
-                        }
-                        }
-                    </td>
-                    <td class="text-center">
-                        @if(personel.healtReport != ""){
-                        <a href="{{personel.diploma}}" target="_blank" title="{{personel.diploma}}">
-                            <i class="fa-solid fa-file"></i>
-                        </a>
+                        @if(personel.certificateUrls.length > 0){
+                            @for(certifcate of personel.certificateUrls; track certifcate){
+                            <a 
+                                class="me-1" 
+                                href="https://localhost:7295/certificates/{{certifcate}}" 
+                                target="_blank" 
+                                title="{{certifcate}}">
+                                <i class="fa-solid fa-file"></i>
+                            </a>
+                            }
                         }
                     </td>
                     <td class="text-center">
-                        @if(personel.healtReport != ""){
-                        <a href="{{personel.healtReport}}" target="_blank" title="{{personel.healtReport}}">
-                            <i class="fa-solid fa-file"></i>
-                        </a>
+                        @if(personel.diplomaUrl != null){
+                            <a 
+                                href="https://localhost:7295/diplomas/{{personel.diplomaUrl}}" 
+                                target="_blank" 
+                                title="{{personel.diplomaUrl}}">
+                                <i class="fa-solid fa-file"></i>
+                            </a>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if(personel.healthReportUrl != null){
+                            <a 
+                                href="https://localhost:7295/health-reports/{{personel.healthReportUrl}}" 
+                                target="_blank" 
+                                title="{{personel.healthReportUrl}}">
+                                <i class="fa-solid fa-file"></i>
+                            </a>
                         }
                     </td>
                     <td>
@@ -112,7 +129,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5">Add Personel Form</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" #addModalCloseBtn class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form formValidate #addForm="ngForm" (ngSubmit)="add(addForm)" autocomplete="off">
                 <div class="modal-body">
@@ -134,49 +151,61 @@
                                             class="form-control" required minlength="3">
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    <!-- Email -->
+                                    <!-- Identity Number -->
                                     <div class="form-group mt-1">
+                                        <label>Identity Number</label>
+                                        <input [(ngModel)]="addModel.identityNumber" name="identityNumber" type="string"
+                                            class="form-control" required minlength="11" maxlength="11">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    
+                                     <!-- Email -->
+                                     <div class="form-group mt-1">
                                         <label>Email</label>
                                         <input [(ngModel)]="addModel.email" name="email" type="email"
                                             class="form-control" required minlength="3">
                                         <div class="invalid-feedback"></div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6">                                   
                                     <!-- Phone Number -->
                                     <div class="form-group">
                                         <label>Phone Number</label>
-                                        <input prefix="+90" mask="(000) 000 0000" [(ngModel)]="addModel.phoneNumber" name="phoneNumber" type="text"
-                                            class="form-control" required minlength="10">
+                                        <input prefix="+90" mask="(000) 000 0000" [(ngModel)]="addModel.phoneNumber"
+                                            name="phoneNumber" type="text" class="form-control" required minlength="10">
                                         <div class="invalid-feedback"></div>
                                     </div>
-                                    <!-- Start Date -->
-                                    <div class="form-group mt-1">
-                                        <label>Start Date</label>
-                                        <input type="date" class="form-control" [(ngModel)]="addModel.startDate"
-                                            name="startDate">
+                                    <div class="form-group row mt-1">
+                                        <div class="col-6">
+                                            <!-- Start Date -->
+                                            <div class="form-group">
+                                                <label>Start Date</label>
+                                                <input type="date" class="form-control" [(ngModel)]="addModel.startDate"
+                                                    name="startDate">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <!-- Salary -->
+                                            <div class="form-group">
+                                                <label>Salary</label>
+                                                <input style="text-align: right;" mask="separator.2" thousandSeparator="." type="text"
+                                                    [(ngModel)]="addModel.salary" name="salary" type="text"
+                                                    class="form-control" required>
+                                                <div class="invalid-feedback"></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Salary -->
-                                    <div class="form-group mt-1">
-                                        <label>Salary</label>
-                                        <input  mask="separator.2" thousandSeparator="." type="text" [(ngModel)]="addModel.salary" name="salary" type="text" class="form-control" required>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row form-group mt-2">
-                                <div class="col-6">
+
                                     <!-- City -->
-                                    <div class="form-group">
+                                    <div class="form-group mt-1">
                                         <label>City</label>
                                         <ng-select (change)="getDistrictByCity($event)" [items]="cities"
                                             bindLabel="name" bindValue="name" [(ngModel)]="addModel.city" name="city">
                                         </ng-select>
                                     </div>
-                                </div>
-                                <div class="col-6">
+
                                     <!-- District -->
-                                    <div class="form-group">
+                                    <div class="form-group mt-1">
                                         <label>District</label>
                                         <ng-select [items]="districts" bindLabel="name" bindValue="name"
                                             [(ngModel)]="addModel.district" name="district">
@@ -189,11 +218,11 @@
                                 <label>Full Address</label>
                                 <textarea required minlength="3" [(ngModel)]="addModel.fullAddress" name="fullAddress"
                                     class="form-control"></textarea>
-                                    <div class="invalid-feedback"></div>
+                                <div class="invalid-feedback"></div>
                             </div>
                         </div>
                         <div class="col-4">
-                            <img (click)="openAvatarFileInput()" [src]="addModel.avatar" class="avatar-img">
+                            <img (click)="openAvatarFileInput()" [src]="addModel.avatarUrl" class="avatar-img">
                             <input (change)="setAvatarImage($event)" style="display: none;" #avatarFile id="avatar-file"
                                 type="file" class="form-control">
                         </div>
@@ -206,8 +235,7 @@
                                 <ngx-dropzone (change)="setCVFile($event)" [multiple]="false">
                                     <ngx-dropzone-label>Upload CV</ngx-dropzone-label>
                                     @if(addModel.cvFile != undefined){
-                                    <ngx-dropzone-preview [removable]="true"
-                                        (removed)="removeCVFile(addModel.cvFile)">
+                                    <ngx-dropzone-preview [removable]="true" (removed)="removeCVFile(addModel.cvFile)">
                                         <ngx-dropzone-label>{{ addModel.cvFile?.name.substring(0,10) }} ({{
                                             addModel.cvFile?.type.substring(0,10) }})</ngx-dropzone-label>
                                     </ngx-dropzone-preview>

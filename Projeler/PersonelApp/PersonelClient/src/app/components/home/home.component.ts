@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { PersonelModel } from '../../models/personel.model';
 import { CommonModule, DatePipe } from '@angular/common';
 import { TrCurrencyPipe } from 'tr-currency';
@@ -8,8 +8,6 @@ import { OnlyNumbersDirective } from '../../directives/only-numbers.directive';
 import { Cities, Districts } from '../../constants';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormValidateDirective } from 'form-validate-angular';
-import { ToastrService } from 'ngx-toastr';
-import Swal from 'sweetalert2';
 import { SwalService } from '../../services/swal.service';
 import { NgxMaskDirective, NgxMaskPipe } from 'ngx-mask';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
@@ -22,34 +20,8 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
   styleUrl: './home.component.css',
   providers: [DatePipe]
 })
-export class HomeComponent {
-  data: PersonelModel[] = [
-    {
-      firstName: "Taner",
-      lastName: "Saydam",
-      avatar: "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708646400&semt=ais",
-      certificates: [
-        "https://tanersaydam.net/assets/cv.pdf",
-        "https://tanersaydam.net/assets/cv.pdf",
-        "https://tanersaydam.net/assets/cv.pdf"],
-      city: "Kayseri",
-      cv: "https://tanersaydam.net/assets/cv.pdf",
-      diploma: "https://tanersaydam.net/assets/cv.pdf",
-      district: "Kocasinan",
-      email: "tanersaydam@gmail.com",
-      fullAddress: "Kayseri",
-      healtReport: "https://tanersaydam.net/assets/cv.pdf",
-      id: "id",
-      phoneNumber: "5546548006",
-      salary: 50000,
-      startDate: "02.23.2024",
-      avatarFile: null,
-      certificatesFile: null,
-      cvFile: null,
-      diplomaFile: null,
-      healthReportFile: null
-    }
-  ];
+export class HomeComponent implements OnInit {
+  data: PersonelModel[] = [];
 
   cities = Cities;
   districts: { id: number, city: string, name: string }[] = [];
@@ -57,17 +29,29 @@ export class HomeComponent {
   addModel: PersonelModel = new PersonelModel();
 
   @ViewChild("avatarFile") avatarFile: ElementRef<HTMLInputElement> | undefined;
+  @ViewChild("addModalCloseBtn") addModalCloseBtn: ElementRef<HTMLButtonElement> | undefined;
 
   constructor(
-    private date: DatePipe,
-    private toastr: ToastrService,
+    private date: DatePipe,    
     private swal: SwalService,
-    private http: HttpClient) {
-    //this.addModel.avatar = "/assets/upload.jpeg";
-    this.addModel.avatar = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";
-    this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");
+    private http: HttpClient) {    
+    this.addModel.avatarUrl = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";
+    this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");    
+  }
 
-    this.http.get("https://localhost:7295/api/Personels/Get").subscribe(res=> console.log(res));
+  ngOnInit(): void {
+    this.getAll();
+  }
+
+  getAll(){
+    this.http.get("https://localhost:7295/api/Personels/GetAll").subscribe({
+      next: (res:any)=> {
+        this.data = res;
+      },
+      error: (err: HttpErrorResponse) => {
+        console.log(err);        
+      }
+    })
   }
 
   getDistrictByCity(event: any) {
@@ -87,7 +71,7 @@ export class HomeComponent {
     reader.onload = (e) => {
       console.log(e);
       // FileReader'ın okuma işlemi tamamlandığında avatar'ı güncelle
-      this.addModel.avatar = e.target?.result;
+      this.addModel.avatarUrl = e.target?.result;
     };
 
     reader.readAsDataURL(this.addModel.avatarFile);
@@ -102,7 +86,7 @@ export class HomeComponent {
   }
 
   setCertificatesFile(event: any) {
-    this.addModel.certificatesFile = event.addedFiles;
+    this.addModel.certificatesFile = event.addedFiles;    
   }
 
   removeCertificatesFile(event: any) {
@@ -126,25 +110,22 @@ export class HomeComponent {
   }
 
   add(form: NgForm) {
-    if (form.valid) {
+    if (!form.valid) {
       //Validation Check
       this.addModel.salary = +this.addModel.salary.toString().replace(",", ".");   
 
       if (+this.addModel.salary < 17002) {
-        this.swal.callToast("Salary must be greater then 17.002,00 ₺","error");
-        //this.toastr.error("Salary must be greater then 17.002,00 ₺");
+        this.swal.callToast("Salary must be greater then 17.002,00 ₺","error");        
         return;
       }
 
       if (this.addModel.city == "Select...") {
-        this.swal.callToast("You must select a city","error");
-        //this.toastr.error("You must select a city");
+        this.swal.callToast("You must select a city","error");        
         return;
       }
 
       if (this.addModel.district == "Select...") {
-        this.swal.callToast("You must select a district","error");
-       // this.toastr.error("You must select a city");
+        this.swal.callToast("You must select a district","error");       
         return;
       }
       //Validation Check
@@ -153,6 +134,7 @@ export class HomeComponent {
       const formData = new FormData();
       formData.append("firstName",this.addModel.firstName);
       formData.append("lastName",this.addModel.lastName);
+      formData.append("identityNumber",this.addModel.identityNumber);
       formData.append("startDate",this.addModel.startDate ?? "");
       formData.append("salary",this.addModel.salary.toString());
       formData.append("phoneNumber",this.addModel.phoneNumber);
@@ -188,9 +170,27 @@ export class HomeComponent {
       this.http.post("https://localhost:7295/api/Personels/Create",formData)
       .subscribe({
         next: (res:any)=> {
-          
+          this.addModalCloseBtn?.nativeElement.click();
+          this.getAll();
+          this.swal.callToast(res.message);
+          this.addModel = new PersonelModel();
+          this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");     
+          this.addModel.avatarUrl = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";     
         },
         error: (err: HttpErrorResponse)=> {
+          if(err.status === 500){
+            this.swal.callToast(err.error.Message,"error");
+          }else if(err.status === 400){
+            var errorMessage = "";
+            for(let index in err.error.errors){
+              const errorMessages = err.error.errors[index];
+              for(let messageIndex in errorMessages){
+                errorMessage += errorMessages[messageIndex] + "\n";                
+              }
+            }
+
+            this.swal.callToast(errorMessage, "error");
+          }
           console.log(err);          
         }
       });

@@ -1,5 +1,11 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
+## 28.02.2024
+- Personel Create ve GetAll metotlarını yazdık
+- Validation kontrolü
+- DataAnnotation ve OnModelCreating ile property özelleştirmeleri
+- Exception
+
 ## 27.02.2024
 - EF Core
 - sealed keywordü

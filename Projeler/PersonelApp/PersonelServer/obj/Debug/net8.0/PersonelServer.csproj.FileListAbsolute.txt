@@ -155,3 +155,6 @@ C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\FluentValidation.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

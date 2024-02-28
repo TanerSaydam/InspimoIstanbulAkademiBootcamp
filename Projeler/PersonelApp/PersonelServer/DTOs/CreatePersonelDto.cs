@@ -3,7 +3,8 @@
 public sealed record CreatePersonelDto(
     string FirstName,
     string LastName,
-    string StartDate,
+    string IdentityNumber,
+    DateOnly StartDate,
     decimal Salary,
     string PhoneNumber,
     string Email,

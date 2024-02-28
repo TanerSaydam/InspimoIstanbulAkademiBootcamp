@@ -1,29 +1,24 @@
 using DefaultCorsPolicyNugetPackage;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using PersonelServer.Context;
 using System.Net;
+using System.Reflection;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//CORS politiasý Cross Origin 
+builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly()).AddFluentValidationAutoValidation();
 
 builder.Services.AddDefaultCors();
 
-//builder.Services.AddCors(configuration =>
-//{
-//    configuration.AddDefaultPolicy(policy =>
-//    {
-//       // policy.WithMethods("GET","POST").WithHeaders("Value").AllowCredentials().WithOrigins("https://localhost:4200");
-//       policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-//    });
-//});
-
 builder.Services.AddHealthChecks()
     .AddDbContextCheck<ApplicationDbContext>();
-    //.AddSqlServer(builder.Configuration.GetConnectionString("SqlServer") ?? "");
 
 builder.Services.AddHealthChecksUI(options =>
 {
@@ -57,6 +52,28 @@ app.MapHealthChecks("healthcheck", new HealthCheckOptions()
         [HealthStatus.Unhealthy] = StatusCodes.Status500InternalServerError,
     },
     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
+
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next(context);
+    }
+    catch (Exception ex)
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+        context.Response.ContentType = "application/json";
+
+        var data = new
+        {
+            Message = ex.Message
+        };
+
+        var errorResponse = JsonSerializer.Serialize(data);
+
+        await context.Response.WriteAsync(errorResponse);
+    }
 });
 
 app.UseCors();

@@ -5,20 +5,68 @@
       "PackagePath": "staticwebassets\\avatars\\84c5280f-ea47-49fa-b0f1-2d9233806269.jpg"
     },
     {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\avatars\\8577c402-05bd-4fa3-9f19-2850ef48e434.jpg",
+      "PackagePath": "staticwebassets\\avatars\\8577c402-05bd-4fa3-9f19-2850ef48e434.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\avatars\\9347b5a4-2ca6-4b98-bc08-6ca2b1e8faf1.jpg",
+      "PackagePath": "staticwebassets\\avatars\\9347b5a4-2ca6-4b98-bc08-6ca2b1e8faf1.jpg"
+    },
+    {
       "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\2d4d3f1d-a9fe-49a4-ae1d-f1a06a5f5bd5.jpeg",
       "PackagePath": "staticwebassets\\certificates\\2d4d3f1d-a9fe-49a4-ae1d-f1a06a5f5bd5.jpeg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\37716ed0-6a31-499d-91a2-baa035168ca4.jpg",
+      "PackagePath": "staticwebassets\\certificates\\37716ed0-6a31-499d-91a2-baa035168ca4.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\52a76b23-1d6d-4f29-b3e8-af749f5fde56.jpg",
+      "PackagePath": "staticwebassets\\certificates\\52a76b23-1d6d-4f29-b3e8-af749f5fde56.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\54562c79-e0bd-4a9d-8352-668913334622.png",
+      "PackagePath": "staticwebassets\\certificates\\54562c79-e0bd-4a9d-8352-668913334622.png"
     },
     {
       "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\d3f0e452-7f3b-4368-a053-7d69b58e626d.webp",
       "PackagePath": "staticwebassets\\certificates\\d3f0e452-7f3b-4368-a053-7d69b58e626d.webp"
     },
     {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\certificates\\e98ac186-ed8e-4ef7-b51a-565dde0d5c31.png",
+      "PackagePath": "staticwebassets\\certificates\\e98ac186-ed8e-4ef7-b51a-565dde0d5c31.png"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\cvs\\51f8c25a-457d-4d86-a8ef-ed2118c4b676.jpg",
+      "PackagePath": "staticwebassets\\cvs\\51f8c25a-457d-4d86-a8ef-ed2118c4b676.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\cvs\\646608a8-a285-43e8-8282-a6a13410f5af.jpg",
+      "PackagePath": "staticwebassets\\cvs\\646608a8-a285-43e8-8282-a6a13410f5af.jpg"
+    },
+    {
       "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\cvs\\b62345e4-e873-4d80-85cd-f8812b214a3f.docx",
       "PackagePath": "staticwebassets\\cvs\\b62345e4-e873-4d80-85cd-f8812b214a3f.docx"
     },
     {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\diplomas\\58fd1eac-3905-4291-942c-8ae45ccc5ab3.jpg",
+      "PackagePath": "staticwebassets\\diplomas\\58fd1eac-3905-4291-942c-8ae45ccc5ab3.jpg"
+    },
+    {
       "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\diplomas\\b0352904-af0f-4997-8ab7-8086db916d83.webp",
       "PackagePath": "staticwebassets\\diplomas\\b0352904-af0f-4997-8ab7-8086db916d83.webp"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\diplomas\\c768904c-0fd5-4445-8363-1e83e90235b1.jpg",
+      "PackagePath": "staticwebassets\\diplomas\\c768904c-0fd5-4445-8363-1e83e90235b1.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\health-reports\\897a149c-aa49-486b-bfff-520509b1e07d.jpg",
+      "PackagePath": "staticwebassets\\health-reports\\897a149c-aa49-486b-bfff-520509b1e07d.jpg"
+    },
+    {
+      "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\health-reports\\8c53157a-c445-4ad3-8a2a-aa92444a14ad.jpg",
+      "PackagePath": "staticwebassets\\health-reports\\8c53157a-c445-4ad3-8a2a-aa92444a14ad.jpg"
     },
     {
       "Id": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\wwwroot\\health-reports\\e626e652-004f-405f-898a-03f7fab9596e.webp",

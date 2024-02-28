@@ -18,8 +18,13 @@
         "IsRequired": false
       },
       {
-        "Name": "StartDate",
+        "Name": "IdentityNumber",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateOnly",
         "IsRequired": false
       },
       {
@@ -78,6 +83,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.PersonelsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Personels/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

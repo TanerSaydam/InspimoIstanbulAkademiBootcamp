@@ -1,8 +1,9 @@
 export class PersonelModel{
     id: string = "";
-    avatar: any | string | null;
     firstName: string = "";
     lastName: string = "";
+    fullName: string = "";
+    identityNumber:string = "";
     startDate: string | null = "";
     salary: number = 17002;
     phoneNumber: string = "";
@@ -10,10 +11,11 @@ export class PersonelModel{
     city: string = "Select...";
     district: string = "Select...";
     fullAddress: string = "";
-    cv: string = "";
-    certificates: string[] = [];
-    diploma: string = "";
-    healtReport: string = "";  
+    avatarUrl: any | string | null;
+    cvUrl: string = "";
+    certificateUrls: string[] = [];    
+    diplomaUrl: string = "";
+    healthReportUrl: string = "";  
     avatarFile:any | null = null;  
     cvFile:any | null = null;  
     certificatesFile:any | null = null;  
