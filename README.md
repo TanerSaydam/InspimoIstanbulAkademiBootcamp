@@ -1,5 +1,13 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
+## 29.02.2024 (Önümüzdeki Ders İşlenecekler)
+- AutoMapper
+- Repository Pattern
+- UnitOfWork Pattern
+- Generic Repository Pattern
+- Service Mantığı
+- Exception Handler (Hata işleme)
+
 ## 28.02.2024
 - Personel Create ve GetAll metotlarını yazdık
 - Validation kontrolü
