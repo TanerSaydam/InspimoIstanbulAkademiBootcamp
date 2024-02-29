@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "DefaultCorsPolicy": {
               "target": "Package",
               "version": "[8.0.0, )"

@@ -75,6 +75,9 @@ namespace PersonelServer.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(10)");
 
+                    b.Property<Guid>("ProfessionId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<decimal>("Salary")
                         .HasColumnType("money");
 
@@ -86,7 +89,60 @@ namespace PersonelServer.Migrations
                     b.HasIndex("IdentityNumber")
                         .IsUnique();
 
+                    b.HasIndex("ProfessionId");
+
                     b.ToTable("Personels");
+                });
+
+            modelBuilder.Entity("PersonelServer.Models.Profession", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Professions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("36745468-c99a-483c-b57e-08bfe168fd64"),
+                            Name = "Software Developer"
+                        },
+                        new
+                        {
+                            Id = new Guid("50edf3c8-089f-481e-a389-0450c18834d3"),
+                            Name = "Teacher"
+                        },
+                        new
+                        {
+                            Id = new Guid("0d4a950d-269b-4aaa-bbd1-32b6832d3cf8"),
+                            Name = "Frontend Developer"
+                        },
+                        new
+                        {
+                            Id = new Guid("18b44f34-a078-4fc0-9ee1-5e5c7b0b1ceb"),
+                            Name = "Full Stack Developer"
+                        });
+                });
+
+            modelBuilder.Entity("PersonelServer.Models.Personel", b =>
+                {
+                    b.HasOne("PersonelServer.Models.Profession", "Profession")
+                        .WithMany()
+                        .HasForeignKey("ProfessionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Profession");
                 });
 #pragma warning restore 612, 618
         }

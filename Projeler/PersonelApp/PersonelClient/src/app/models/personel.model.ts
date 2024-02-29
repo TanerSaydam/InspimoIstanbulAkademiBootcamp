@@ -1,3 +1,5 @@
+import { ProfessionModel } from "./profession.model";
+
 export class PersonelModel{
     id: string = "";
     firstName: string = "";
@@ -13,7 +15,7 @@ export class PersonelModel{
     fullAddress: string = "";
     avatarUrl: any | string | null;
     cvUrl: string = "";
-    certificateUrls: string[] = [];    
+    certificateFileUrls: string[] = [];    
     diplomaUrl: string = "";
     healthReportUrl: string = "";  
     avatarFile:any | null = null;  
@@ -21,4 +23,7 @@ export class PersonelModel{
     certificatesFile:any | null = null;  
     diplomaFile:any | null = null;  
     healthReportFile:any | null = null;  
+    professionId: string = "";
+    profession: ProfessionModel = new ProfessionModel();
+    professionName: string = "";
 }

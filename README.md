@@ -1,12 +1,19 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 29.02.2024 (Önümüzdeki Ders İşlenecekler)
+## 01.03.2024 (Gelecek Ders)
+- Exception Handler
+- Angular Authentication (Kullanıcı Giriş Kontrolü)
+- .NET Login İşlemi
+- JWT ile Token Üretme
+- Authentication Kontrolü
+- Personel Update ve Delete İşlemleri
+
+## 29.02.2024
 - AutoMapper
 - Repository Pattern
 - UnitOfWork Pattern
 - Generic Repository Pattern
 - Service Mantığı
-- Exception Handler (Hata işleme)
 
 ## 28.02.2024
 - Personel Create ve GetAll metotlarını yazdık

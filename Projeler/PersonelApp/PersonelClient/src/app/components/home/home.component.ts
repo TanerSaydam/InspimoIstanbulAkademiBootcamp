@@ -11,6 +11,8 @@ import { FormValidateDirective } from 'form-validate-angular';
 import { SwalService } from '../../services/swal.service';
 import { NgxMaskDirective, NgxMaskPipe } from 'ngx-mask';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { ProfessionModel } from '../../models/profession.model';
+import { ErrorService } from '../../services/error.service';
 
 @Component({
   selector: 'app-home',
@@ -22,6 +24,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
   data: PersonelModel[] = [];
+  professions: ProfessionModel[] = [];
 
   cities = Cities;
   districts: { id: number, city: string, name: string }[] = [];
@@ -34,6 +37,7 @@ export class HomeComponent implements OnInit {
   constructor(
     private date: DatePipe,    
     private swal: SwalService,
+    private error: ErrorService,    
     private http: HttpClient) {    
     this.addModel.avatarUrl = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";
     this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");    
@@ -41,6 +45,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAll();
+    this.getAllProfessions();
   }
 
   getAll(){
@@ -49,7 +54,19 @@ export class HomeComponent implements OnInit {
         this.data = res;
       },
       error: (err: HttpErrorResponse) => {
-        console.log(err);        
+        this.error.errorHandler(err);
+      }
+    })
+  }
+
+
+  getAllProfessions(){
+    this.http.get("https://localhost:7295/api/Professions/GetAll").subscribe({
+      next: (res:any)=> {
+        this.professions = res;
+      },
+      error: (err:HttpErrorResponse)=> {
+        this.error.errorHandler(err);
       }
     })
   }
@@ -110,9 +127,14 @@ export class HomeComponent implements OnInit {
   }
 
   add(form: NgForm) {
-    if (!form.valid) {
+    if (form.valid) {
       //Validation Check
       this.addModel.salary = +this.addModel.salary.toString().replace(",", ".");   
+
+      if(this.addModel.professionId === ""){
+        this.swal.callToast("You must select an profession","warning");
+        return;
+      }
 
       if (+this.addModel.salary < 17002) {
         this.swal.callToast("Salary must be greater then 17.002,00 ₺","error");        
@@ -142,6 +164,7 @@ export class HomeComponent implements OnInit {
       formData.append("city",this.addModel.city);
       formData.append("district",this.addModel.district);
       formData.append("fullAddress",this.addModel.fullAddress);
+      formData.append("professionId", this.addModel.professionId);
 
       if(this.addModel.avatarFile !== null){
         formData.append("avatarFile",this.addModel.avatarFile,this.addModel.avatarFile.name);
@@ -157,8 +180,7 @@ export class HomeComponent implements OnInit {
       
       if(this.addModel.healthReportFile !== null){
         formData.append("healthReportFile",this.addModel.healthReportFile,this.addModel.healthReportFile.name);
-      }
-      
+      }     
 
       if(this.addModel.certificatesFile !== null){
         for(let certificate of this.addModel.certificatesFile){
@@ -178,20 +200,7 @@ export class HomeComponent implements OnInit {
           this.addModel.avatarUrl = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";     
         },
         error: (err: HttpErrorResponse)=> {
-          if(err.status === 500){
-            this.swal.callToast(err.error.Message,"error");
-          }else if(err.status === 400){
-            var errorMessage = "";
-            for(let index in err.error.errors){
-              const errorMessages = err.error.errors[index];
-              for(let messageIndex in errorMessages){
-                errorMessage += errorMessages[messageIndex] + "\n";                
-              }
-            }
-
-            this.swal.callToast(errorMessage, "error");
-          }
-          console.log(err);          
+          this.error.errorHandler(err);      
         }
       });
     }

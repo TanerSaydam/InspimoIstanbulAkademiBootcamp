@@ -17,10 +17,13 @@ public sealed class Personel
     public string Email { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
     public string District { get; set; } = string.Empty;
-    public string FullAddress { get; set; } = string.Empty;
+    public string FullAddress { get; set; } = string.Empty;    
     public string? AvatarUrl { get; set; }
     public string? CVUrl { get; set; }
     public string? CertificateUrls { get; set; }
     public string? DiplomaUrl { get; set; }
     public string? HealthReportUrl { get; set; }
+
+    public Guid ProfessionId { get; set; }
+    public Profession? Profession { get; set; }
 }

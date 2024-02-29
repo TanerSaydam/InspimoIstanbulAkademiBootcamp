@@ -15,4 +15,5 @@ public sealed record CreatePersonelDto(
     IFormFile? CVFile,
     List<IFormFile>? CertificateFiles,
     IFormFile? DiplomaFile,
-    IFormFile? HealthReportFile);
+    IFormFile? HealthReportFile,
+    Guid ProfessionId);

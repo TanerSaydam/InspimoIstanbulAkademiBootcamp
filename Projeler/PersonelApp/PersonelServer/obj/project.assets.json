@@ -112,6 +112,22 @@
           }
         }
       },
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -2246,6 +2262,21 @@
         "icon.png",
         "lib/net8.0/HealthChecks.UI.InMemory.Storage.dll",
         "lib/net8.0/HealthChecks.UI.InMemory.Storage.xml"
+      ]
+    },
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
       ]
     },
     "Azure.Core/1.35.0": {
@@ -5558,6 +5589,7 @@
       "AspNetCore.HealthChecks.UI >= 8.0.0",
       "AspNetCore.HealthChecks.UI.Client >= 8.0.0",
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 8.0.0",
+      "AutoMapper >= 13.0.1",
       "DefaultCorsPolicy >= 8.0.0",
       "FluentValidation >= 11.9.0",
       "FluentValidation.AspNetCore >= 11.3.0",
@@ -5635,6 +5667,10 @@
           "AspNetCore.HealthChecks.UI.InMemory.Storage": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           },
           "DefaultCorsPolicy": {
             "target": "Package",

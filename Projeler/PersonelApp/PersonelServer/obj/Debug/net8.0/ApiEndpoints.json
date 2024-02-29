@@ -81,6 +81,11 @@
         "Name": "HealthReportFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      },
+      {
+        "Name": "ProfessionId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -89,6 +94,16 @@
     "ContainingType": "PersonelServer.Controllers.PersonelsController",
     "Method": "GetAll",
     "RelativePath": "api/Personels/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.ProfessionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Professions/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

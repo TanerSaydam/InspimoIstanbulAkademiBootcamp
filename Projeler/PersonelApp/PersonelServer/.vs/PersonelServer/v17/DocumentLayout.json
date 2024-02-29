@@ -3,54 +3,42 @@
   "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\controllers\\personelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:controllers\\personelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\validators\\createpersoneldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:validators\\createpersoneldtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\dtos\\createpersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:dtos\\createpersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\models\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:models\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\personelserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:personelserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\services\\personelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:services\\personelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\dtos\\getallpersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:dtos\\getallpersoneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Migrations\\20240228144209_mg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240228144209_mg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\controllers\\personelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:controllers\\personelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\personelapp\\personelserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A69E7CC-5894-45D5-B441-41FCD172DA15}|PersonelServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedHeight": 183,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,138 +46,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreatePersonelDtoValidator.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Validators\\CreatePersonelDtoValidator.cs",
-              "RelativeDocumentMoniker": "Validators\\CreatePersonelDtoValidator.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Validators\\CreatePersonelDtoValidator.cs",
-              "RelativeToolTip": "Validators\\CreatePersonelDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T16:30:17.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Personel.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Models\\Personel.cs",
               "RelativeDocumentMoniker": "Models\\Personel.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Models\\Personel.cs",
               "RelativeToolTip": "Models\\Personel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABEAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAzwBYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:26:11.479Z",
+              "WhenOpened": "2024-02-29T17:05:15.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreatePersonelDto.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\DTOs\\CreatePersonelDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreatePersonelDto.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\DTOs\\CreatePersonelDto.cs",
-              "RelativeToolTip": "DTOs\\CreatePersonelDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:18:19.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:18:13.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwA8AAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T16:17:43.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonelsController.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Controllers\\PersonelsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PersonelsController.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Controllers\\PersonelsController.cs",
-              "RelativeToolTip": "Controllers\\PersonelsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:52:02.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "GetAllPersonelDto.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\DTOs\\GetAllPersonelDto.cs",
               "RelativeDocumentMoniker": "DTOs\\GetAllPersonelDto.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\DTOs\\GetAllPersonelDto.cs",
               "RelativeToolTip": "DTOs\\GetAllPersonelDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T15:24:57.447Z",
+              "WhenOpened": "2024-02-29T17:02:58.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonelServer",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\PersonelServer.csproj",
+              "RelativeDocumentMoniker": "PersonelServer.csproj",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\PersonelServer.csproj",
+              "RelativeToolTip": "PersonelServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T16:58:29.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:50:33.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20240228144209_mg1.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Migrations\\20240228144209_mg1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240228144209_mg1.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Migrations\\20240228144209_mg1.cs",
-              "RelativeToolTip": "Migrations\\20240228144209_mg1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:42:10.126Z",
+              "WhenOpened": "2024-02-29T16:44:08.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T15:29:25.091Z",
+              "DocumentIndex": 3,
+              "Title": "PersonelService.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Services\\PersonelService.cs",
+              "RelativeDocumentMoniker": "Services\\PersonelService.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Services\\PersonelService.cs",
+              "RelativeToolTip": "Services\\PersonelService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwG0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:43:01.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T15:29:19.078Z",
+              "DocumentIndex": 5,
+              "Title": "PersonelsController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Controllers\\PersonelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonelsController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\PersonelApp\\PersonelServer\\Controllers\\PersonelsController.cs",
+              "RelativeToolTip": "Controllers\\PersonelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:41:30.107Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 1511,
+          "DockedHeight": 217,
           "SelectedChildIndex": -1,
           "Children": [
             {

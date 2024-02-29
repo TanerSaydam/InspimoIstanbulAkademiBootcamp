@@ -16,7 +16,9 @@ public sealed record GetAllPersonelDto
     public string FullAddress { get; set; } = string.Empty;
     public string? AvatarUrl { get; set; }
     public string? CVUrl { get; set; }
-    public List<string>? CertificateUrls { get; set; }
+    public List<string>? CertificateFileUrls { get; set; }
     public string? DiplomaUrl { get; set; }
     public string? HealthReportUrl { get; set; }
+    public Guid ProfessionId { get; set; }
+    public string ProfessionName { get; set; } = string.Empty;
 };
