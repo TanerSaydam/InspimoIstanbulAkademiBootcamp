@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PersonelServer.Repositories;
 
 namespace PersonelServer.Controllers;
@@ -8,13 +9,13 @@ public sealed class ProfessionsController(
     ProfessionRepository professionRepository) : ControllerBase
 {
     [HttpGet]
-    public IActionResult GetAll()
+    public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
     {
         var professions = 
-            professionRepository
+            await professionRepository
             .GetAll()
             .OrderBy(p=> p.Name)
-            .ToList();
+            .ToListAsync(cancellationToken);
 
         return Ok(professions);
     }

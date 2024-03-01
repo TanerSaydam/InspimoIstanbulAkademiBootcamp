@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|c:\\inspimoistanbulakademibootcamp\\consoleapp\\benchmark.consoleapp\\benchmarkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|solutionrelative:benchmarkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|c:\\inspimoistanbulakademibootcamp\\consoleapp\\benchmark.consoleapp\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|c:\\inspimoistanbulakademibootcamp\\consoleapp\\benchmark.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96732D20-87A8-42F0-8695-BC667B085ABE}|BenchMark.ConsoleApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 183,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:19:42.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BenchMarkService.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\BenchMarkService.cs",
+              "RelativeDocumentMoniker": "BenchMarkService.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\BenchMarkService.cs",
+              "RelativeToolTip": "BenchMarkService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwC4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:50:15.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\ConsoleApp\\BenchMark.ConsoleApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:49:27.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

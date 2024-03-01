@@ -13,17 +13,17 @@ public sealed class PersonelService(
     IUnitOfWork unitOfWork,
     IMapper mapper)
 {
-    public void Create(CreatePersonelDto request)
+    public async Task CreateAsync(CreatePersonelDto request, CancellationToken cancellationToken = default)
     {
         #region Business Rules // İş Kuralları
-        bool isIdentityNumberExists = personelRepository.Any(p => p.IdentityNumber == request.IdentityNumber);
+        bool isIdentityNumberExists = await personelRepository.AnyAsync(p => p.IdentityNumber == request.IdentityNumber);
 
         if (isIdentityNumberExists)
         {
             throw new IdentityNumberIsAlreadyExistsException();
         }
 
-        bool isEmailExists = personelRepository.Any(p => p.Email == request.Email);
+        bool isEmailExists = await personelRepository.AnyAsync(p => p.Email == request.Email);
         if (isEmailExists)
         {
             throw new EmailAddressIsAlreadyExistsException();
@@ -80,20 +80,20 @@ public sealed class PersonelService(
         #endregion
 
         #region Database'e Kayıt işlemi
-        personelRepository.Add(personel);
-        unitOfWork.SaveChanges();
+        await personelRepository.AddAsync(personel, cancellationToken);
+        await unitOfWork.SaveChangesAsync(cancellationToken);
         #endregion
     }
 
-    public List<GetAllPersonelDto> GetAll()
+    public async Task<List<GetAllPersonelDto>> GetAllAsync(CancellationToken cancellationToken = default)
     {
         #region Database'den Listeyi Al
         List<Personel> personels =
-            personelRepository
+           await personelRepository
             .GetAll()
             .Include(p => p.Profession)
             .OrderBy(p => p.FirstName)
-            .ToList();
+            .ToListAsync(cancellationToken);
         #endregion
 
         #region DTO Nesnesine Dönüştür

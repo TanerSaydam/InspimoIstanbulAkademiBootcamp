@@ -8,14 +8,14 @@ public class Repository<T>(
     ApplicationDbContext context)
     where T : class
 {
-    public bool Any(Expression<Func<T, bool>> predicate)
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate)
     {
-        return context.Set<T>().Any(predicate);
+        return await context.Set<T>().AnyAsync(predicate);
     }
 
-    public void Add(T personel)
+    public async Task AddAsync(T personel, CancellationToken cancellationToken = default)
     {
-        context.Add(personel);
+        await context.AddAsync(personel, cancellationToken);
     }    
 
     public IQueryable<T> GetAll()
