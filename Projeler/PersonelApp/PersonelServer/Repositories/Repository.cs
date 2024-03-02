@@ -8,9 +8,9 @@ public class Repository<T>(
     ApplicationDbContext context)
     where T : class
 {
-    public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate)
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate, CancellationToken cancellationToken = default)
     {
-        return await context.Set<T>().AnyAsync(predicate);
+        return await context.Set<T>().AnyAsync(predicate, cancellationToken);
     }
 
     public async Task AddAsync(T personel, CancellationToken cancellationToken = default)

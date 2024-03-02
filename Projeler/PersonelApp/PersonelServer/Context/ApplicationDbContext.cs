@@ -11,8 +11,14 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
     }
     public DbSet<Personel> Personels { get; set; }
     public DbSet<Profession> Professions { get; set; }
+    public DbSet<User> Users { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        #region User
+        modelBuilder.Entity<User>().Property(p => p.Id).HasColumnType("varchar(100)");
+        modelBuilder.Entity<User>().HasIndex(index => index.Email).IsUnique();
+        #endregion
+
         #region Personel
         modelBuilder.Entity<Personel>().Property(p => p.FirstName).HasColumnType("varchar(100)");
         modelBuilder.Entity<Personel>().Property(p => p.LastName).HasColumnType("varchar(100)");

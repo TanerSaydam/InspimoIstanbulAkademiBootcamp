@@ -16,5 +16,7 @@ public sealed class MappingProfile : Profile
 
         CreateMap<Personel, GetAllPersonelDto>()            
             .ForMember(dest => dest.ProfessionName, opt => opt.MapFrom(src => src.Profession!.Name));
+
+        CreateMap<CreateUserDto, User>();
     }
 }

@@ -160,3 +160,5 @@ C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\AutoMapper.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\PersonelApp\PersonelServer\bin\Debug\net8.0\Ulid.dll

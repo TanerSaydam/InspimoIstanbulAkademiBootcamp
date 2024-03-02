@@ -1,16 +1,25 @@
 using DefaultCorsPolicyNugetPackage;
-using HealthChecks.UI.Client;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.IdentityModel.Tokens;
 using PersonelServer.Extensions;
 using PersonelServer.Middlewares;
+using PersonelServer.Options;
+using PersonelServer.Utilities;
+using System.Security.Claims;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
 builder.Services.AddDependencyInjection(builder.Configuration);
+builder.Services.AddAuthenticationDI();
+builder.Services.CreateServiceTool();
+
+
 builder.Services.AddDefaultCors();
-//builder.Services.AddHealthChecksDI();
 builder.Services.AddExceptionHandler<ExceptionHandler2>();
 builder.Services.AddProblemDetails();
 builder.Services.AddControllers();
@@ -25,17 +34,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//app.MapHealthChecks("healthcheck", new HealthCheckOptions()
-//{
-//    ResultStatusCodes =
-//    {
-//        [HealthStatus.Healthy] = StatusCodes.Status200OK,
-//        [HealthStatus.Degraded] = StatusCodes.Status400BadRequest,
-//        [HealthStatus.Unhealthy] = StatusCodes.Status500InternalServerError,
-//    },
-//    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-//});
-
 app.UseExtensions();
 
 app.UseCors();
@@ -44,10 +42,11 @@ app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
-
-//app.MapHealthChecksUI(options => options.UIPath = "/dashboard");
+app.MapControllers()
+    .RequireAuthorization(policy =>
+    {
+        policy.RequireClaim(ClaimTypes.NameIdentifier);
+        policy.AddAuthenticationSchemes("Bearer");
+    });
 
 app.Run();

@@ -27,6 +27,9 @@ public class ExceptionHandler2 : IExceptionHandler
     public async ValueTask<bool> TryHandleAsync(HttpContext context, Exception ex, CancellationToken cancellationToken)
     {
         context.Response.StatusCode = 500;
+		if(ex.GetType() == typeof(UnauthorizedAccessException)){
+			context.Response.StatusCode = 401;
+		}
         context.Response.ContentType = "application/json";
         await context.Response.WriteAsync(new ErrorResponse(ex.Message).ToString());
 

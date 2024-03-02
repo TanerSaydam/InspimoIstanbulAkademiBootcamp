@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Asenkron Yapılar</h1>
+    <script>
+        fetch("api",{
+            method: "POST",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(new {Message: "asdasd"})
+        })
+        .then(res=> res.json())
+        .then(data => console.log(data));
+
+        axios.post("api",new {Message: "asdasd"}).then(res => console.log(res));
+
+        $.ajax({
+            method: "post",
+            url: "api",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(new {Message: "asdasd"})
+        }).then(res=> console.log(res));
+
+        // $.ajax({
+        //     method: "GET",
+        //     url: "https://jsonplaceholder.typicode.com/todos/1",            
+        // }).then(res=> {
+        //     console.log(res);
+        // })
+        // axios.get("https://jsonplaceholder.typicode.com/todos/1").then(res => {
+        //     console.log(res);
+        // });
+        // fetch("https://jsonplaceholder.typicode.com/todos/1").then(res=> res.json()).then(data => {
+        //     console.log(data)
+        //     console.log("Pazartesi");
+        // setTimeout(() => {
+        //     console.log("Salı");          
+        //     console.log("Çarşamba");
+        // }, 100);
+        // });
+       
+    </script>
+</body>
+</html>

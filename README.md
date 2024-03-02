@@ -1,13 +1,16 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 02.03.2024 (Gelecek Ders)
+## 05.03.2024 (Gelecek Ders)
+- Authorization
+- Personel Update ve Delete İşlemleri
+
+## 02.03.2024
 - JavaScript Asenkron Yapılar
 - JavaScript API İstek Metotlarını (Fetch, Axios, Ajax)
 - Angular Authentication (Kullanıcı Giriş Kontrolü)
 - .NET Login İşlemi
 - JWT ile Token Üretme
 - Authentication Kontrolü
-- Personel Update ve Delete İşlemleri
 
 ## 01.03.2024
 - Exception Handler
