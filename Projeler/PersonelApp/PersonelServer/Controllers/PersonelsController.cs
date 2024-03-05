@@ -23,8 +23,7 @@ public sealed class PersonelsController(
     }
 
     [HttpGet]
-    //[Authorize(AuthenticationSchemes = "Bearer")]
-    //[AuthorizeCheck]
+    [Authorize(AuthenticationSchemes ="Bearer", Roles = "Personels.GetAll")]   
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken = default)
     {
         var response = await personelService.GetAllAsync(cancellationToken);

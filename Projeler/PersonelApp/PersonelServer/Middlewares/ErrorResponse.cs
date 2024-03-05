@@ -14,6 +14,6 @@ public sealed class ErrorResponse
     public override string ToString()
     {
         //return JsonSerializer.Serialize(this);
-        return JsonConvert.SerializeObject(Message);
+        return JsonConvert.SerializeObject(this);
     }
 }

@@ -5,7 +5,7 @@
     </ol>
 </nav>
 
-<div class="form-group mt-2">
+<div class="form-group mt-2">    
     <div class="form-group">
         <div class="row">
             <div class="col-9">
@@ -31,7 +31,9 @@
                     <th>Name</th>
                     <th>Identity Number</th>
                     <th>Start Date</th>
-                    <th>Salary</th>
+                    @if(auth.isAuthorized("Personels.Table.Salary")){
+                        <th>Salary</th>
+                    }                    
                     <th>Phone Number</th>
                     <th>Email</th>
                     <th>City</th>
@@ -60,7 +62,9 @@
                     <td>{{personel.fullName}}</td>
                     <td>{{personel.identityNumber}}</td>
                     <td>{{personel.startDate | date:'dd.MM.yyyy'}}</td>
-                    <td>{{personel.salary | trCurrency: '₺': true}}</td>
+                    @if(auth.isAuthorized("Personels.Table.Salary")){
+                        <td>{{personel.salary | trCurrency: '₺': true}}</td>
+                    }                    
                     <td>{{'+90' + (personel.phoneNumber | mask: '(000) 000 0000')}}</td>
                     <td>{{personel.email}}</td>
                     <td>{{personel.city}}</td>

@@ -1,8 +1,11 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 05.03.2024 (Gelecek Ders)
+## 06.03.2024 (Gelecek ders)
 - Authorization
-- Personel Update ve Delete İşlemleri
+- Katmanlı Mimari (N Tier Architecture)
+
+## 05.03.2024
+- Authorization
 
 ## 02.03.2024
 - JavaScript Asenkron Yapılar

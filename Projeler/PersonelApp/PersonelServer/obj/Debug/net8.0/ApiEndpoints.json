@@ -141,5 +141,47 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.RolesController",
+    "Method": "SyncRoles",
+    "RelativePath": "api/Roles/SyncRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.UserRolesController",
+    "Method": "Create",
+    "RelativePath": "api/UserRoles/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PersonelServer.DTOs.CreateUserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.UserRolesController",
+    "Method": "GetAllByUserId",
+    "RelativePath": "api/UserRoles/GetAllByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

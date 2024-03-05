@@ -6,12 +6,13 @@ using PersonelServer.Utilities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 
 namespace PersonelServer.Services;
 
 public sealed class JwtProvider
 {   
-    public string CreateToken(User user)
+    public string CreateToken(User user, List<string> roles)
     {
         var options = ServiceTool.ServiceProvider!.GetRequiredService<IOptions<JwtOptions>>().Value;
 
@@ -19,8 +20,13 @@ public sealed class JwtProvider
         {
             new Claim(ClaimTypes.NameIdentifier,user.Id),
             new Claim(ClaimTypes.Name,user.FullName),
-            new Claim(ClaimTypes.Email,user.Email),
+            new Claim(ClaimTypes.Email,user.Email),            
         };
+
+        foreach (var role in roles)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, role));
+        }
 
         string key = options.SecretKey;
 
@@ -33,7 +39,7 @@ public sealed class JwtProvider
             audience: options.Audience,
             claims: claims,
             notBefore: DateTime.UtcNow,
-            expires: DateTime.Now.AddMinutes(10),
+            expires: DateTime.Now.AddMonths(12),
             signingCredentials: signinCredentails);
 
         JwtSecurityTokenHandler handler = new();

@@ -12,6 +12,8 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
     public DbSet<Personel> Personels { get; set; }
     public DbSet<Profession> Professions { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<UserRole> UserRoles { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         #region User
@@ -37,6 +39,10 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
         #region Profession
         modelBuilder.Entity<Profession>().Property(p => p.Name).HasColumnType("varchar(100)");
         modelBuilder.Entity<Profession>().HasIndex(i => i.Name).IsUnique();
+        #endregion
+
+        #region UserRole
+        modelBuilder.Entity<UserRole>().HasKey(key => new { key.UserId, key.RoleId }); //composite key
         #endregion
 
         #region SeedData

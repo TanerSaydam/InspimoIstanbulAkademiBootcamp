@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using PersonelServer.Context;
 using PersonelServer.DTOs;
 using PersonelServer.Models;
 using PersonelServer.Repositories;
@@ -9,6 +10,7 @@ namespace PersonelServer.Services;
 
 public sealed class UserService(
     UserRepository userRepository,
+    ApplicationDbContext context,
     IUnitOfWork unitOfWork,
     JwtProvider jwtProvider,
     IMapper mapper)
@@ -57,7 +59,15 @@ public sealed class UserService(
             }
         }
 
-        string token = jwtProvider.CreateToken(user); 
+
+        List<string> roles = 
+            await context.UserRoles
+            .Where(p => p.UserId == user.Id)
+            .Include(p => p.Role)
+            .Select(s => s.Role!.Name)
+            .ToListAsync(cancellationToken);
+
+        string token = jwtProvider.CreateToken(user, roles); 
         return token;
     }
 }

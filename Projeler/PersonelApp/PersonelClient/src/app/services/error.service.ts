@@ -1,6 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { SwalService } from './swal.service';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -8,13 +9,17 @@ import { SwalService } from './swal.service';
 export class ErrorService {
 
   constructor(
-    private swal: SwalService
+    private swal: SwalService,
+    private router: Router
   ) { }
 
   errorHandler(err: HttpErrorResponse){
     if(err.status === 0){
       this.swal.callToast("We cannot be reached API","error");
-    }else if(err.status === 500){
+    }else if(err.status === 401){
+      this.router.navigateByUrl("/login");
+    }
+    else if(err.status === 500){
       this.swal.callToast(err.error.Message,"error");
     }else if(err.status === 400){
       var errorMessage = "";

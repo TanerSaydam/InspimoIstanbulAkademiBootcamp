@@ -13,6 +13,7 @@ import { NgxMaskDirective, NgxMaskPipe } from 'ngx-mask';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { ProfessionModel } from '../../models/profession.model';
 import { ErrorService } from '../../services/error.service';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-home',
@@ -37,7 +38,8 @@ export class HomeComponent implements OnInit {
   constructor(
     private date: DatePipe,    
     private swal: SwalService,
-    private error: ErrorService,    
+    private error: ErrorService,  
+    public auth: AuthService,  
     private http: HttpClient) {    
     this.addModel.avatarUrl = "https://cdn3.iconfinder.com/data/icons/file-and-folder-fill-icons-set/144/File_Upload-512.png";
     this.addModel.startDate = this.date.transform(new Date(), "yyyy-MM-dd");    
@@ -49,7 +51,11 @@ export class HomeComponent implements OnInit {
   }
 
   getAll(){
-    this.http.get("https://localhost:7295/api/Personels/GetAll").subscribe({
+    this.http.get("https://localhost:7295/api/Personels/GetAll", {
+      headers: {
+        "Authorization": "Bearer " + this.auth.token
+      }
+    }).subscribe({
       next: (res:any)=> {
         this.data = res;
       },
@@ -61,7 +67,11 @@ export class HomeComponent implements OnInit {
 
 
   getAllProfessions(){
-    this.http.get("https://localhost:7295/api/Professions/GetAll").subscribe({
+    this.http.get("https://localhost:7295/api/Professions/GetAll", {
+      headers: {
+        "Authorization": "Bearer " + this.auth.token
+      }
+    }).subscribe({
       next: (res:any)=> {
         this.professions = res;
       },

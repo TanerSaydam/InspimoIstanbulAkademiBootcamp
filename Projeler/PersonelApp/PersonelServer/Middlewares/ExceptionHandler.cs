@@ -31,6 +31,7 @@ public class ExceptionHandler2 : IExceptionHandler
 			context.Response.StatusCode = 401;
 		}
         context.Response.ContentType = "application/json";
+
         await context.Response.WriteAsync(new ErrorResponse(ex.Message).ToString());
 
 		return true;
