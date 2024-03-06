@@ -5,15 +5,16 @@ using Microsoft.EntityFrameworkCore;
 using PersonelServer.Context;
 using PersonelServer.DTOs;
 using PersonelServer.Models;
+using System.Security.Claims;
 
 namespace PersonelServer.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
-[AllowAnonymous]
 public sealed class UserRolesController(
     ApplicationDbContext context) : ControllerBase
 {
     [HttpPost]
+    [AllowAnonymous]
     public async Task<IActionResult> Create(CreateUserRoleDto request, CancellationToken cancellationToken)
     {
         bool isUserHaveThisRole = 
@@ -39,8 +40,14 @@ public sealed class UserRolesController(
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAllByUserId(string userId, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetAllByUserId(CancellationToken cancellationToken)
     {
+        string? userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if(userId is null)
+        {
+            throw new ArgumentException("User not found");
+        }
+
         List<Role?> userRoles = 
             await context.UserRoles
             .Where(p => p.UserId == userId)
@@ -49,6 +56,24 @@ public sealed class UserRolesController(
             .ToListAsync(cancellationToken);
 
 
-        return Ok(userRoles);
+        return Ok(userRoles.Select(s=> s!.Name));
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> IsItAuthorized(string role, CancellationToken cancellationToken)
+    {
+        string? userId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)!.Value;
+        if(userId == null)
+        {
+            throw new ArgumentException("User nor found");
+        }
+
+       var response = 
+            await context.UserRoles
+            .Where(p => p.UserId == userId && p.Role!.Name == role)
+            .Include(p => p.Role)
+            .AnyAsync(cancellationToken);
+
+        return Ok(new { IsItAuthorized = response });
     }
 }

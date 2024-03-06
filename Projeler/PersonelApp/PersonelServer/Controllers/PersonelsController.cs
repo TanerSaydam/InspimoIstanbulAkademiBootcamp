@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore;
+using PersonelServer.Context;
 using PersonelServer.DTOs;
 using PersonelServer.Services;
-using System.Text.Json;
+using PersonelServer.Utilities;
+using System.Security.Claims;
 
 namespace PersonelServer.Controllers;
 [Route("api/[controller]/[action]")]
@@ -23,11 +26,31 @@ public sealed class PersonelsController(
     }
 
     [HttpGet]
-    [Authorize(AuthenticationSchemes ="Bearer", Roles = "Personels.GetAll")]   
+    [Authorize(AuthenticationSchemes ="Bearer")]
+    [AuthorizeFilter("Professions.GetAll")]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken = default)
     {
         var response = await personelService.GetAllAsync(cancellationToken);
         return Ok(response);
+    }
+}
+
+public class AuthorizeFilterAttribute(
+    string role
+    ) : Attribute, IAuthorizationFilter
+{    
+    public void OnAuthorization(AuthorizationFilterContext context)
+    {
+        ApplicationDbContext dbContext = context.HttpContext.RequestServices.GetRequiredService<ApplicationDbContext>();
+        //ApplicationDbContext dbContext = ServiceTool.ServiceProvider!.GetRequiredService<ApplicationDbContext>();  
+
+        string? userId = context.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if (userId is null) throw new UnauthorizedAccessException();
+
+        bool isAuthorized = dbContext.UserRoles.Include(p => p.Role).Any(p => p.UserId == userId && p.Role!.Name == role);
+
+        if (!isAuthorized) throw new UnauthorizedAccessException();
     }
 }
 

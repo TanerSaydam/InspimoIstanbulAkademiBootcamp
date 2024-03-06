@@ -1,8 +1,21 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 06.03.2024 (Gelecek ders)
+## 07.03.2024 (Gelecek ders)
+- Örnek Clean Architecture Tasarımına Devam ediyoruz
+- Infrasturcture Katmanı
+- Entity Framework Core (MSSQL)
+- Dependency Injection
+- WebAPI Katmanı
+- Auto Mapper
+- CQRS pattern
+
+## 06.03.2024
 - Authorization
 - Katmanlı Mimari (N Tier Architecture)
+- Clean Architecture ve N Katmanlı Mimari arasındaki Fark
+- Hexigonal Architecture, Vertical Architecture, Clean Architecture ve Onion Arasındaki Fark
+- Katman ve Proje arasındaki Fark
+- Örnek Clean Architecture Tasarımına Başladık
 
 ## 05.03.2024
 - Authorization

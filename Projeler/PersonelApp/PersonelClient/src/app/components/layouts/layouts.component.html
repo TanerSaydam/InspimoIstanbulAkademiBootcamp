@@ -9,7 +9,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
           </li>
-          @if(auth.roles.includes("Menu.Professions")){
+          @if(this.auth.isAuthorized2("Menu.Professions")){
             <li class="nav-item">
               <a class="nav-link" aria-current="page" routerLink="/professions">Professions</a>
             </li>

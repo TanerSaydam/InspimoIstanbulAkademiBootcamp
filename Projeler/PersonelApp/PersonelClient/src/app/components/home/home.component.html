@@ -31,7 +31,7 @@
                     <th>Name</th>
                     <th>Identity Number</th>
                     <th>Start Date</th>
-                    @if(auth.isAuthorized("Personels.Table.Salary")){
+                    @if(auth.isAuthorized2("Personels.Table.Salary")){
                         <th>Salary</th>
                     }                    
                     <th>Phone Number</th>
@@ -62,7 +62,7 @@
                     <td>{{personel.fullName}}</td>
                     <td>{{personel.identityNumber}}</td>
                     <td>{{personel.startDate | date:'dd.MM.yyyy'}}</td>
-                    @if(auth.isAuthorized("Personels.Table.Salary")){
+                    @if(auth.isAuthorized2("Personels.Table.Salary")){
                         <td>{{personel.salary | trCurrency: '₺': true}}</td>
                     }                    
                     <td>{{'+90' + (personel.phoneNumber | mask: '(000) 000 0000')}}</td>

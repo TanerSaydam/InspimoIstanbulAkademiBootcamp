@@ -1,0 +1,12 @@
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\bin\Debug\net8.0\Katman.deps.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\bin\Debug\net8.0\Katman.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\bin\Debug\net8.0\Katman.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\refint\Katman.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\Katman.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\KatmanVsProje\Katman\obj\Debug\net8.0\ref\Katman.dll

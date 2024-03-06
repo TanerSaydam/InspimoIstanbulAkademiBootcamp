@@ -23,10 +23,10 @@ public sealed class JwtProvider
             new Claim(ClaimTypes.Email,user.Email),            
         };
 
-        foreach (var role in roles)
-        {
-            claims.Add(new Claim(ClaimTypes.Role, role));
-        }
+        //foreach (var role in roles)
+        //{
+        //    claims.Add(new Claim(ClaimTypes.Role, role));
+        //}
 
         string key = options.SecretKey;
 

@@ -175,9 +175,19 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelServer.Controllers.UserRolesController",
+    "Method": "IsItAuthorized",
+    "RelativePath": "api/UserRoles/IsItAuthorized",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
+        "Name": "role",
         "Type": "System.String",
         "IsRequired": false
       }

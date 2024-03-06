@@ -22,7 +22,7 @@ export const routes: Routes = [
             },
             {
                 path: "professions",
-                canActivate: [()=> inject(AuthService).isAuthorized("Menu.Professions")],
+                canActivate: [()=> inject(AuthService).isAuthorized2("Menu.Professions")],
                 component: ProfessionsComponent
             }
         ]

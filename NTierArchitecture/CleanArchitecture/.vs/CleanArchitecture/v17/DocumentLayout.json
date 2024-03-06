@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678750AC-D0FE-4044-BA1E-5B1151067389}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.application\\services\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678750AC-D0FE-4044-BA1E-5B1151067389}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\services\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.domain\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678750AC-D0FE-4044-BA1E-5B1151067389}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.application\\cleanarchitecture.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{678750AC-D0FE-4044-BA1E-5B1151067389}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\cleanarchitecture.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.domain\\cleanarchitecture.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\cleanarchitecture.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.domain\\dtos\\createvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\dtos\\createvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\ntierarchitecture\\cleanarchitecture\\cleanarchitecture.domain\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 183,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CleanArchitecture.Application",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "RelativeToolTip": "CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T16:58:38.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:58:11.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateVehicleDto.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\DTOs\\CreateVehicleDto.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\DTOs\\CreateVehicleDto.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\DTOs\\CreateVehicleDto.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\DTOs\\CreateVehicleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:57:47.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CleanArchitecture.Domain",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "RelativeToolTip": "CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T16:56:28.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:56:31.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Application\\Services\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Services\\IVehicleService.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Application\\Services\\IVehicleService.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Services\\IVehicleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:56:17.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Repositories\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Repositories\\IVehicleRepository.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.Domain\\Repositories\\IVehicleRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Repositories\\IVehicleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:56:30.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
