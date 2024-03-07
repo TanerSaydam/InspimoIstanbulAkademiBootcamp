@@ -1,0 +1,12 @@
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.deps.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll

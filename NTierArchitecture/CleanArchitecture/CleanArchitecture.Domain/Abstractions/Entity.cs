@@ -1,9 +1,9 @@
 ﻿namespace CleanArchitecture.Domain.Abstractions;
 public abstract class Entity
 {
-    protected Entity(Guid id)
+    protected Entity()
     {
-        Id = id;
+        Id = Guid.NewGuid();
     }
     public Guid Id { get; set; }
     public Guid CreatedUserId { get; set; }

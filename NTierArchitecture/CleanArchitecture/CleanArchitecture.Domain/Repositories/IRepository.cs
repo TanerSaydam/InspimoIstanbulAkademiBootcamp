@@ -11,4 +11,5 @@ public interface IRepository<T>
     Task DeleteByIdAsync(Guid id, CancellationToken cancellationToken = default);
     IQueryable<T> GetAll();
     IQueryable<T> Where(Expression<Func<T, bool>> predicate);
+    Task<bool> AnyAsync(Expression<Func<T, bool>> predicate, CancellationToken cancellationToken = default);
 }

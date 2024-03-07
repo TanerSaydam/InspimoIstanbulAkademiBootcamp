@@ -1,0 +1,37 @@
+
+
+GET https://localhost:7261/api/Vehicles/GetAll
+Accept: application/json
+
+###
+
+
+GET https://localhost:7261/api/Vehicles/DeleteById?id=d4eb8a03-4ca6-49da-9a59-af9b0407f2b1
+
+###
+
+POST https://localhost:7261/api/Vehicles/Create
+Content-Type: application/json
+
+{
+    "brand": "Tesla",
+    "model": "Y",
+    "plate": "38 TS 0038",
+    "year": 2023,
+    "km": 500,
+    "color": 3    
+}
+###
+
+POST https://localhost:7261/api/Vehicles/Update?id=967741e9-2e85-4f6f-8771-9c3a848249dc
+Content-Type: application/json
+
+{
+    "brand": "Tesla2",
+    "model": "Y2",
+    "plate": "38 TS 00382",
+    "year": 2023,
+    "km": 500,
+    "color": 3    
+}
+###

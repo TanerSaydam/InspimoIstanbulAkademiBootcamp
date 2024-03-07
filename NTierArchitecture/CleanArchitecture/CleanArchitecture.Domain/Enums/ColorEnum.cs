@@ -10,4 +10,4 @@ public enum ColorEnum
     YellowGreen,
     YellowBlue,
     White
-}
+} 

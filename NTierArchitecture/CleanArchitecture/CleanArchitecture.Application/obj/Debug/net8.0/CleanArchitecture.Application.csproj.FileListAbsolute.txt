@@ -1,0 +1,16 @@
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.deps.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArc.03AFA812.Up2Date
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\refint\CleanArchitecture.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\ref\CleanArchitecture.Application.dll

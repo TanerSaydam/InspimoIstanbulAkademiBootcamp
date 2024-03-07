@@ -1,13 +1,20 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 07.03.2024 (Gelecek ders)
+## 08.03.2024 (Gelecek ders)
+- Uygulamayı Canlıya Alma
+- Fluent Validation
+- Result Pattern
+- CQRS
+- Behavior
+
+## 07.03.2024
 - Örnek Clean Architecture Tasarımına Devam ediyoruz
 - Infrasturcture Katmanı
 - Entity Framework Core (MSSQL)
 - Dependency Injection
 - WebAPI Katmanı
 - Auto Mapper
-- CQRS pattern
+- Uygulamayı Canlıya Alma
 
 ## 06.03.2024
 - Authorization

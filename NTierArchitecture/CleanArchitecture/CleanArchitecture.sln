@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{169E6C0F-8CB7-4B0E-A389-2D708A8606A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{678750AC-D0FE-4044-BA1E-5B1151067389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{678750AC-D0FE-4044-BA1E-5B1151067389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure", "CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{16EEB08A-2D55-4FEE-9BB8-430B31EFDFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.WebAPI", "CleanArchitecture.WebAPI\CleanArchitecture.WebAPI.csproj", "{2A1A8D26-4301-4158-B3D7-0C25426A1CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{678750AC-D0FE-4044-BA1E-5B1151067389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678750AC-D0FE-4044-BA1E-5B1151067389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678750AC-D0FE-4044-BA1E-5B1151067389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EEB08A-2D55-4FEE-9BB8-430B31EFDFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EEB08A-2D55-4FEE-9BB8-430B31EFDFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EEB08A-2D55-4FEE-9BB8-430B31EFDFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EEB08A-2D55-4FEE-9BB8-430B31EFDFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1A8D26-4301-4158-B3D7-0C25426A1CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1A8D26-4301-4158-B3D7-0C25426A1CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1A8D26-4301-4158-B3D7-0C25426A1CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1A8D26-4301-4158-B3D7-0C25426A1CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
