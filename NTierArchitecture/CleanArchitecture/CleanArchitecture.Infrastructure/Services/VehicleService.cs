@@ -3,56 +3,60 @@ using CleanArchitecture.Application.Services;
 using CleanArchitecture.Domain.DTOs;
 using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Domain.Repositories;
+using CleanArchitecture.Domain.Utilities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Infrastructure.Services;
 internal sealed class VehicleService(
     IVehicleRepository vehicleRepository,
     IMapper mapper) : IVehicleService
-{
-    public async Task AddAsync(VehicleDto request, CancellationToken cancellationToken = default)
+{    
+    public async Task<Result<string>> AddAsync(VehicleDto request, CancellationToken cancellationToken = default)
     {
+        //VehicleDtoValidator validator = new();
+        //ValidationResult validationResult = validator.Validate(request);
+
+        //if (!validationResult.IsValid)
+        //{
+        //    List<string> errors = validationResult.Errors.Select(s=> s.ErrorMessage).ToList();
+        //    throw new ArgumentException(string.Join("\n", errors));
+        //}
+
+
         bool isPlateExists = await vehicleRepository.AnyAsync(p => p.Plate == request.Plate, cancellationToken);
 
         if (isPlateExists)
         {
-            throw new ArgumentException("Plate already exists");
+            return Result<string>.Failure("Plate already exists");
         }
 
         Vehicle vehicle = mapper.Map<Vehicle>(request);        
 
         await vehicleRepository.AddAsync(vehicle, cancellationToken);
-        
 
-        //context.Add(vehicle);
-        //context.Set<Vehicle>().Add(vehicle);
-        // context.Vehicles.Add(vehicle);
-
-        //await context.Vehicles.AddAsync(vehicle, cancellationToken);
-       // await context.Set<Vehicle>().AddAsync(vehicle, cancellationToken);
-        //await context.AddAsync(vehicle, cancellationToken);
-
-        //await context.SaveChangesAsync(cancellationToken);
+        return "Create is successful";
     }
 
-    public async Task DeleteByIdAsync(Guid id, CancellationToken cancellationToken = default)
+    public async Task<Result<string>> DeleteByIdAsync(Guid id, CancellationToken cancellationToken = default)
     {
         await vehicleRepository.DeleteByIdAsync(id, cancellationToken);
+
+        return "Delete is successful";
     }
 
-    public async Task<List<Vehicle>> GetAllAsync(CancellationToken cancellationToken = default)
+    public async Task<Result<List<Vehicle>>> GetAllAsync(CancellationToken cancellationToken = default)
     {
         var vehicles = await vehicleRepository.GetAll().ToListAsync(cancellationToken);
 
         return vehicles;
     }
 
-    public async Task UpdateAsync(Guid id,VehicleDto request, CancellationToken cancellationToken = default)
+    public async Task<Result<string>> UpdateAsync(Guid id,VehicleDto request, CancellationToken cancellationToken = default)
     {
         Vehicle? vehicle = await vehicleRepository.Where(p => p.Id == id).FirstOrDefaultAsync(cancellationToken);
         if(vehicle is null)
         {
-            throw new ArgumentException("Vehicle not found");
+            return Result<string>.Failure("Vehicle not found");
         }
         
         if(vehicle.Plate != request.Plate)
@@ -61,7 +65,7 @@ internal sealed class VehicleService(
 
             if(isPlateExists)
             {
-                throw new ArgumentException("Plate already exists");
+                return Result<string>.Failure("Plate already exists");
             }
         }
 
@@ -69,5 +73,7 @@ internal sealed class VehicleService(
        
 
         await vehicleRepository.UpdateAsync(vehicle, cancellationToken);
+
+        return "Update is successful";
     }
 }

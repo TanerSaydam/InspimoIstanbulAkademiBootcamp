@@ -260,3 +260,6 @@ C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchi
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\DefaultCorsPolicyNugetPackage.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

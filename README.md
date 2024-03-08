@@ -1,11 +1,15 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 08.03.2024 (Gelecek ders)
+## 09.03.2024 (Gelecek ders)
+- CQRS
+- MediatR
+- Behavior
+- Domain Event
+
+## 08.03.2024
 - Uygulamayı Canlıya Alma
 - Fluent Validation
 - Result Pattern
-- CQRS
-- Behavior
 
 ## 07.03.2024
 - Örnek Clean Architecture Tasarımına Devam ediyoruz
