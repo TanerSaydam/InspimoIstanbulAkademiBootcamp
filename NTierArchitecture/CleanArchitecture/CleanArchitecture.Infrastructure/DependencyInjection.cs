@@ -1,9 +1,7 @@
-﻿using CleanArchitecture.Application.Services;
-using CleanArchitecture.Application.Validators;
+﻿using CleanArchitecture.Application.Validators;
 using CleanArchitecture.Domain.Repositories;
 using CleanArchitecture.Infrastructure.Context;
 using CleanArchitecture.Infrastructure.Repositories;
-using CleanArchitecture.Infrastructure.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
@@ -18,14 +16,11 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>
         {
             options.UseSqlServer(configuration.GetConnectionString("SqlServer"));
-        });
-        
-        services.AddAutoMapper(typeof(DependencyInjection).Assembly);
+        });        
 
         services.AddFluentValidationAutoValidation().AddValidatorsFromAssembly(typeof(VehicleDtoValidator).Assembly);
 
-        services.AddScoped<IVehicleRepository, VehicleRepository>();
-        services.AddScoped<IVehicleService, VehicleService>();
+        services.AddScoped<IVehicleRepository, VehicleRepository>();        
         return services;
     }
 }

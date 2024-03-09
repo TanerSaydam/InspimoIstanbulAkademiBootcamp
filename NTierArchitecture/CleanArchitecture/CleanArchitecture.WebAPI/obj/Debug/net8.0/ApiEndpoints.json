@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CleanArchitecture.Domain.DTOs.VehicleDto",
+        "Type": "CleanArchitecture.Application.Features.Vehicles.Commands.CreateVehicle.CreateVehicleCommand",
         "IsRequired": true
       }
     ],
@@ -18,14 +18,14 @@
   {
     "ContainingType": "CleanArchitecture.WebAPI.Controllers.VehiclesController",
     "Method": "DeleteById",
-    "RelativePath": "api/Vehicles/DeleteById/{id}",
-    "HttpMethod": "DELETE",
+    "RelativePath": "api/Vehicles/DeleteById",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Guid",
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Features.Vehicles.Commands.DeleteVehicleById.DeleteVehicleByIdCommand",
         "IsRequired": true
       }
     ],
@@ -44,19 +44,14 @@
   {
     "ContainingType": "CleanArchitecture.WebAPI.Controllers.VehiclesController",
     "Method": "Update",
-    "RelativePath": "api/Vehicles/Update/{id}",
-    "HttpMethod": "PUT",
+    "RelativePath": "api/Vehicles/Update",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
         "Name": "request",
-        "Type": "CleanArchitecture.Domain.DTOs.VehicleDto",
+        "Type": "CleanArchitecture.Application.Features.Vehicles.Commands.UpdateVehicle.UpdateVehicleCommand",
         "IsRequired": true
       }
     ],

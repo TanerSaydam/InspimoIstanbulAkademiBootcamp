@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Domain", "eBiletServer.Domain\eBiletServer.Domain.csproj", "{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Application", "eBiletServer.Application\eBiletServer.Application.csproj", "{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Infrastructure", "eBiletServer.Infrastructure\eBiletServer.Infrastructure.csproj", "{F69F0DBD-266C-46D7-94A1-E93D5BF69208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Persistance", "eBiletServer.Persistance\eBiletServer.Persistance.csproj", "{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.WebAPI", "eBiletServer.WebAPI\eBiletServer.WebAPI.csproj", "{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Prestantion", "eBiletServer.Prestantion\eBiletServer.Prestantion.csproj", "{AFB7B161-865F-4AEC-8543-BD2BC907E745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69F0DBD-266C-46D7-94A1-E93D5BF69208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69F0DBD-266C-46D7-94A1-E93D5BF69208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69F0DBD-266C-46D7-94A1-E93D5BF69208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69F0DBD-266C-46D7-94A1-E93D5BF69208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB7B161-865F-4AEC-8543-BD2BC907E745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB7B161-865F-4AEC-8543-BD2BC907E745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB7B161-865F-4AEC-8543-BD2BC907E745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB7B161-865F-4AEC-8543-BD2BC907E745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E43F5F-284E-452B-A698-DC4088E17E5A}
+	EndGlobalSection
+EndGlobal

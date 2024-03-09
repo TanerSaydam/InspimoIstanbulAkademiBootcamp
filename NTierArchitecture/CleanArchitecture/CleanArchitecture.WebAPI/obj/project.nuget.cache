@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s/LcF3+ntEqZnRJjQNkXv2pi02dY1QaHMw+PMwHwdi0nXIOSGJ6J75nrIDZsd6EmwVjsRXQSM9BCqsz8xJKyuA==",
+  "dgSpecHash": "JsqWNhKDZk9n6Q+Vtz4vQYEVflztL4MiEqcQA2KgEQiKl0xplq+srW6S2Slge7NL3C0YPis9OMDHfe/60KnIzg==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\NTierArchitecture\\CleanArchitecture\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,8 @@
     "C:\\Users\\taner\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",

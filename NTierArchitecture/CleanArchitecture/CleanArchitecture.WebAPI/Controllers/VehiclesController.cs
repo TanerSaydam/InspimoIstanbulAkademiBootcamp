@@ -1,41 +1,43 @@
-﻿using Azure;
-using CleanArchitecture.Application.Services;
-using CleanArchitecture.Application.Validators;
+﻿using Azure.Core;
+using CleanArchitecture.Application.Features.Vehicles.Commands.CreateVehicle;
+using CleanArchitecture.Application.Features.Vehicles.Commands.DeleteVehicleById;
+using CleanArchitecture.Application.Features.Vehicles.Commands.UpdateVehicle;
+using CleanArchitecture.Application.Features.Vehicles.Queries.GetAllVehicles;
 using CleanArchitecture.Domain.DTOs;
-using CleanArchitecture.WebAPI.AOP;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecture.WebAPI.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
 public class VehiclesController(
-    IVehicleService vehicleService) : ControllerBase
+    IMediator mediator) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
     {
-        var response = await vehicleService.GetAllAsync(cancellationToken);
+        GetAllVehicleQuery request = new();
+        var response = await mediator.Send(request, cancellationToken);
         return StatusCode(response.StatuCode, response);
     }
     [HttpPost]
-    // [ValidationFilter<VehicleDtoValidator>]
-    public async Task<IActionResult> Create(VehicleDto request, CancellationToken cancellationToken)
-    {
-        var response = await vehicleService.AddAsync(request, cancellationToken);
+    public async Task<IActionResult> Create(CreateVehicleCommand request, CancellationToken cancellationToken)
+    {        
+        var response = await mediator.Send(request, cancellationToken);
         return StatusCode(response.StatuCode, response);
     }
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> Update(Guid id, VehicleDto request, CancellationToken cancellationToken)
+    [HttpPost]
+    public async Task<IActionResult> Update(UpdateVehicleCommand request, CancellationToken cancellationToken)
     {
-        var response = await vehicleService.UpdateAsync(id, request, cancellationToken);
+        var response = await mediator.Send(request, cancellationToken);
         return StatusCode(response.StatuCode, response);
     }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteById(Guid id, CancellationToken cancellationToken)
+    [HttpPost]
+    public async Task<IActionResult> DeleteById(DeleteVehicleByIdCommand request, CancellationToken cancellationToken)
     {
-        var response = await vehicleService.DeleteByIdAsync(id, cancellationToken);
+        var response = await mediator.Send(request, cancellationToken);
         return StatusCode(response.StatuCode, response);
     }
 }

@@ -1,10 +1,15 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 09.03.2024 (Gelecek ders)
-- CQRS
-- MediatR
+## 12.03.2024 (Gelecek ders)
+- AutoMapper
+- FluentValidation
+- smtp4Dev - Fake Mail Sistemi
 - Behavior
 - Domain Event
+
+## 09.03.2024
+- CQRS
+- MediatR
 
 ## 08.03.2024
 - Uygulamayı Canlıya Alma

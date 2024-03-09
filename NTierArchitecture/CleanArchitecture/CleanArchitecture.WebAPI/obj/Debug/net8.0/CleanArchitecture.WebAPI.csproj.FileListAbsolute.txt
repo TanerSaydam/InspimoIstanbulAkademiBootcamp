@@ -263,3 +263,5 @@ C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchi
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.dll
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\MediatR.dll
+C:\InspimoIstanbulAkademiBootcamp\NTierArchitecture\CleanArchitecture\CleanArchitecture.WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll

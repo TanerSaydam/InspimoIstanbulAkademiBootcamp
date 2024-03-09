@@ -1,0 +1,16 @@
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\bin\Debug\net8.0\eBiletServer.Application.deps.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\bin\Debug\net8.0\eBiletServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\bin\Debug\net8.0\eBiletServer.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.csproj.AssemblyReference.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\refint\eBiletServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletServer.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\ref\eBiletServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\bin\Debug\net8.0\eBiletServer.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\bin\Debug\net8.0\eBiletServer.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBiletServer\eBiletServer.Application\obj\Debug\net8.0\eBiletSe.ABC69AD4.Up2Date

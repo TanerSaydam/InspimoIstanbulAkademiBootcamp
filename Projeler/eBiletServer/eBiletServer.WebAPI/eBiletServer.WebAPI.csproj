@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eBiletServer.Application\eBiletServer.Application.csproj" />
+    <ProjectReference Include="..\eBiletServer.Domain\eBiletServer.Domain.csproj" />
+    <ProjectReference Include="..\eBiletServer.Persistance\eBiletServer.Persistance.csproj" />
+    <ProjectReference Include="..\eBiletServer.Prestantion\eBiletServer.Prestantion.csproj" />
+  </ItemGroup>
+
+</Project>

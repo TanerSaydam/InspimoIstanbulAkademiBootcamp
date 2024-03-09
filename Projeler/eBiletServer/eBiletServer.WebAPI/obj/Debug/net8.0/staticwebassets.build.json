@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xshd262LyfG85su6Dz55B6SloXYCchIgh+Oy2rqOG90=",
+  "Source": "eBiletServer.WebAPI",
+  "BasePath": "_content/eBiletServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
