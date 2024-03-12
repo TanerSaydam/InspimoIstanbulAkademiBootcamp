@@ -1,0 +1,12 @@
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Infrastructure.deps.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Infrastructure.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Infrastructure.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\refint\eBiletServer.Infrastructure.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\ref\eBiletServer.Infrastructure.dll

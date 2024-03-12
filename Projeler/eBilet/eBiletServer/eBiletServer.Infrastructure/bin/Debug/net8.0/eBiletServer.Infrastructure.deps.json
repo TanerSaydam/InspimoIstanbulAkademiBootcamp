@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "eBiletServer.Infrastructure/1.0.0": {
+        "runtime": {
+          "eBiletServer.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eBiletServer.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@eBiletServer.WebAPI_HostAddress = http://localhost:5094
+
+POST {{eBiletServer.WebAPI_HostAddress}}/api/Auth/Register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string@string.com",
+  "userName": "string",
+  "password": "Password12*"
+}
+
+###

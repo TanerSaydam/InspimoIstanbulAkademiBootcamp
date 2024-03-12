@@ -1,6 +1,0 @@
-@eBiletServer.WebAPI_HostAddress = http://localhost:5094
-
-GET {{eBiletServer.WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
