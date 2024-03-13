@@ -1,5 +1,7 @@
 ﻿using eBiletServer.Domain.Entities;
+using eBiletServer.Domain.Repositories;
 using eBiletServer.Persistance.Context;
+using eBiletServer.Persistance.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +11,7 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddPersistance(this IServiceCollection services)
     {
-        services.AddDbContext<ApplicatinDbContext>(options =>
+        services.AddDbContext<ApplicationDbContext>(options =>
         {
             options.UseInMemoryDatabase("MemoryDb");
         });
@@ -25,7 +27,9 @@ public static class DependencyInjection
                 options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
 
-            }).AddEntityFrameworkStores<ApplicatinDbContext>();
+            }).AddEntityFrameworkStores<ApplicationDbContext>();
+
+        services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
 
         return services;
     }

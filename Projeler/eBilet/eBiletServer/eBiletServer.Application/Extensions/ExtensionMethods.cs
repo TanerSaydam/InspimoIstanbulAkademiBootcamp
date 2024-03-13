@@ -1,7 +1,12 @@
-﻿namespace eBiletServer.Application.Extensions;
+﻿using eBiletServer.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
+namespace eBiletServer.Application.Extensions;
 public static class ExtensionMethods
 {
-    public static string ReplaceAllTurkishLettersAndDeleteEmptySpace(this string str)
+    public static string ReplaceAllTurkishLettersAndDeleteEmptySpace(
+        this string str)
     {
         Dictionary<string, string> letters = new()
         {
@@ -25,5 +30,18 @@ public static class ExtensionMethods
         }
 
         return str;
+    }
+
+    public static async Task<AppUser?> FindByEmailConfirmCode(
+        this UserManager<AppUser> userManager,
+        int emailConfirmCode, 
+        CancellationToken cancellationToken = default)
+    {
+        AppUser? appUser =
+        await userManager
+        .Users
+            .FirstOrDefaultAsync(p => p.EmailConfirmCode == emailConfirmCode, cancellationToken);
+
+        return appUser;
     }
 }

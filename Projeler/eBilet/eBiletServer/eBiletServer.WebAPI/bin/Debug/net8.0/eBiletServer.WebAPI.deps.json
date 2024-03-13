@@ -11,6 +11,7 @@
           "Swashbuckle.AspNetCore": "6.4.0",
           "eBiletServer.Application": "1.0.0",
           "eBiletServer.Domain": "1.0.0",
+          "eBiletServer.Infrastructure": "1.0.0",
           "eBiletServer.Persistance": "1.0.0",
           "eBiletServer.Prestantion": "1.0.0"
         },
@@ -26,6 +27,28 @@
           "lib/net6.0/AutoMapper.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.1.0"
+          }
+        }
+      },
+      "FluentEmail.Core/3.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Core.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
+          }
+        }
+      },
+      "FluentEmail.Smtp/3.0.2": {
+        "dependencies": {
+          "FluentEmail.Core": "3.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Smtp.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
           }
         }
       },
@@ -829,6 +852,7 @@
       "eBiletServer.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "FluentEmail.Smtp": "3.0.2",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
@@ -846,6 +870,16 @@
           "eBiletServer.Domain.dll": {}
         }
       },
+      "eBiletServer.Infrastructure/1.0.0": {
+        "dependencies": {
+          "FluentEmail.Smtp": "3.0.2",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
+          "eBiletServer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "eBiletServer.Infrastructure.dll": {}
+        }
+      },
       "eBiletServer.Persistance/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "8.0.2",
@@ -859,6 +893,7 @@
       },
       "eBiletServer.Prestantion/1.0.0": {
         "dependencies": {
+          "FluentEmail.Smtp": "3.0.2",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "eBiletServer.Application": "1.0.0"
         },
@@ -880,6 +915,20 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "FluentEmail.Core/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uQFFbJgMhhCFUti7pfMi429fMNi7fLGMj+7uDtD7POlQzLxlhXJ6tmt4Y1SI51sZsA36GO5b7+o29eY/dKiICQ==",
+      "path": "fluentemail.core/3.0.2",
+      "hashPath": "fluentemail.core.3.0.2.nupkg.sha512"
+    },
+    "FluentEmail.Smtp/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y5pZKS/mXSl7D5WJWecvfo1kpIMDc6U0VRU6wRbE9wEv2IqMH3cQXa/97Pwi+m31COepIqc6dMhGMtAJ2Qh7rw==",
+      "path": "fluentemail.smtp/3.0.2",
+      "hashPath": "fluentemail.smtp.3.0.2.nupkg.sha512"
     },
     "FluentValidation/11.9.0": {
       "type": "package",
@@ -1552,6 +1601,11 @@
       "sha512": ""
     },
     "eBiletServer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eBiletServer.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

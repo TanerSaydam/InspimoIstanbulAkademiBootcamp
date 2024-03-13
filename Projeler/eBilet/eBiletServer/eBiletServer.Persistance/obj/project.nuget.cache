@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5YYHJXYkqFwMyc7ntuZFaGByJmF2kdtvBS9C1g32rPi+Keg9sh9MQbdudOtw3VL+oVBYyHLcNULSYPUYFhjVpA==",
+  "dgSpecHash": "8RJHt2aY8+axj4UDCal4y5tP7HLwbNdk7IBmK8gCbgIO5tphfM3QBkR5Cz6f/sjtsOOHlzlP4Ob8ow2kfPnTFA==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\eBiletServer.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taner\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\fluentemail.core\\3.0.2\\fluentemail.core.3.0.2.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\fluentemail.smtp\\3.0.2\\fluentemail.smtp.3.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

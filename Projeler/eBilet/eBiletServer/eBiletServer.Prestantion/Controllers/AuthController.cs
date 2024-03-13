@@ -1,4 +1,5 @@
 ﻿using eBiletServer.Application.Features.Auth.Register;
+using eBiletServer.Application.Features.Auth.VerifyEmailByEmailConfirmCode;
 using eBiletServer.Prestantion.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,13 @@ public sealed class AuthController : ApiController
 
     [HttpPost]
     public async Task<IActionResult> Register(RegisterCommand request, CancellationToken cancellationToken)
+    {
+        var response = await _mediator.Send(request, cancellationToken);
+        return StatusCode(response.StatusCode, response);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> VerifyEmailByEmailConfirmCode(VerifyEmailByEmailConfirmCodeCommand request, CancellationToken cancellationToken)
     {
         var response = await _mediator.Send(request, cancellationToken);
         return StatusCode(response.StatusCode, response);

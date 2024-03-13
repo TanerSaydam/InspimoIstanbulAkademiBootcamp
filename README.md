@@ -1,12 +1,18 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 13.03.2024 (Gelecek ders)
-- Registerda Mail onayı gönderme
-- smtp4Dev - Fake Mail Sistemi
+## 14.03.2024 (Gelecek ders)
 - Domain Event
 - Login
 - SigninInManager
 - JWT
+
+## 13.03.2024 (Gelecek ders)
+- Registerda Mail onayı gönderme
+- smtp4Dev - Fake Mail Sistemi
+- PaperCut - Fake Mail Sistemi
+- FluentEmail ile mail gönderme
+- Mail gönderme başarısız olduğunda try yöntemi kullanma
+- Outbox pattern
 
 ## 12.03.2024
 - AutoMapper
