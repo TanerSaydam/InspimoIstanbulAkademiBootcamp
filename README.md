@@ -14,7 +14,7 @@
 - Login
 - SigninInManager
 
-## 13.03.2024 (Gelecek ders)
+## 13.03.2024
 - Registerda Mail onayı gönderme
 - smtp4Dev - Fake Mail Sistemi
 - PaperCut - Fake Mail Sistemi
