@@ -1,4 +1,5 @@
 using eBiletServer.Application;
+using eBiletServer.Infrastructure;
 using eBiletServer.Infrastructure.Services;
 using eBiletServer.Persistance;
 using eBiletServer.WebAPI.Middleware;
@@ -19,14 +20,14 @@ builder.Services
 
 builder.Services.AddPersistance();
 builder.Services.AddApplication();
-
-builder.Services.AddHostedService<SendFailedEmailBackgroundService>();
+builder.Services.AddInfrastructure();
 
 builder.Services.AddExceptionHandler<ExceptionMiddleware>().AddProblemDetails();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 

@@ -1,10 +1,18 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 14.03.2024 (Gelecek ders)
-- Domain Event
+## 15.03.2024 (Gelecek ders)
 - Login
 - SigninInManager
 - JWT
+- Refresh Token
+- Angular Projemizi Oluşturma
+- Frontend Tasarımı
+
+## 14.03.2024
+- Domain Event
+- Postgresql
+- Login
+- SigninInManager
 
 ## 13.03.2024 (Gelecek ders)
 - Registerda Mail onayı gönderme

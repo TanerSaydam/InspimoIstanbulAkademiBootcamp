@@ -286,6 +286,8 @@
       },
       "eBiletServer.Domain/1.0.0": {
         "dependencies": {
+          "FluentEmail.Smtp": "3.0.2",
+          "MediatR": "12.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.2"
         },
         "runtime": {

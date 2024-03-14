@@ -13,7 +13,8 @@ public static class DependencyInjection
     {
         services.AddDbContext<ApplicationDbContext>(options =>
         {
-            options.UseInMemoryDatabase("MemoryDb");
+            options.UseNpgsql("Host=localhost;Port=5432;Database=ebiletdb;Username=postgres;Password=1;");
+            options.UseSnakeCaseNamingConvention();
         });
 
         services.AddIdentity<AppUser, IdentityRole<Guid>>(

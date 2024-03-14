@@ -15,7 +15,7 @@ internal sealed class OutboxSendEmailRepository(
 
     public async Task<OutboxSendEmail?> GetNotCompletedEmailAsync(CancellationToken cancellationToken = default)
     {
-        return await context.OutboxSendEmails.Where(p => !p.IsItCompleted && p.TryCount < 3).FirstOrDefaultAsync(cancellationToken);
+        return await context.OutboxSendEmails.Where(p => p.IsItCompleted == false && p.TryCount < 3).FirstOrDefaultAsync(cancellationToken);
     }
 
     public async Task UpdateAsync(OutboxSendEmail outboxSendEmail, CancellationToken cancellationToken = default)

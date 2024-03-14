@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F69F0DBD-266C-46D7-94A1-E93D5BF69208}|eBiletServer.Infrastructure\\eBiletServer.Infrastructure.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.infrastructure\\services\\sendfailedemailbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F69F0DBD-266C-46D7-94A1-E93D5BF69208}|eBiletServer.Infrastructure\\eBiletServer.Infrastructure.csproj|solutionrelative:ebiletserver.infrastructure\\services\\sendfailedemailbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|solutionrelative:ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|solutionrelative:ebiletserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.webapi\\ebiletserver.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|solutionrelative:ebiletserver.webapi\\ebiletserver.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.persistance\\repositories\\outboxsendemailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|solutionrelative:ebiletserver.persistance\\repositories\\outboxsendemailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.domain\\repositories\\ioutboxsendemailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|solutionrelative:ebiletserver.domain\\repositories\\ioutboxsendemailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.prestantion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|solutionrelative:ebiletserver.prestantion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.domain\\entities\\outboxsendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|solutionrelative:ebiletserver.domain\\entities\\outboxsendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -52,100 +32,35 @@
               "RelativeDocumentMoniker": "eBiletServer.Persistance\\DependencyInjection.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\DependencyInjection.cs",
               "RelativeToolTip": "eBiletServer.Persistance\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:51:57.48Z",
+              "WhenOpened": "2024-03-14T15:47:38.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "eBiletServer.WebAPI\\Program.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\Program.cs",
-              "RelativeToolTip": "eBiletServer.WebAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "eBiletServer.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:50:15.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OutboxSendEmail.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\OutboxSendEmail.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Domain\\Entities\\OutboxSendEmail.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\OutboxSendEmail.cs",
-              "RelativeToolTip": "eBiletServer.Domain\\Entities\\OutboxSendEmail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:48:36.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OutboxSendEmailRepository.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Repositories\\OutboxSendEmailRepository.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Persistance\\Repositories\\OutboxSendEmailRepository.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Repositories\\OutboxSendEmailRepository.cs",
-              "RelativeToolTip": "eBiletServer.Persistance\\Repositories\\OutboxSendEmailRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:46:38.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IOutboxSendEmailRepository.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Repositories\\IOutboxSendEmailRepository.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Domain\\Repositories\\IOutboxSendEmailRepository.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Repositories\\IOutboxSendEmailRepository.cs",
-              "RelativeToolTip": "eBiletServer.Domain\\Repositories\\IOutboxSendEmailRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:46:17.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Prestantion\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\TestController.cs",
-              "RelativeToolTip": "eBiletServer.Prestantion\\Controllers\\TestController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAkwEsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:44:43.475Z",
+              "WhenOpened": "2024-03-14T15:47:32.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SendFailedEmailBackgroundService.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Infrastructure\\Services\\SendFailedEmailBackgroundService.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Infrastructure\\Services\\SendFailedEmailBackgroundService.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Infrastructure\\Services\\SendFailedEmailBackgroundService.cs",
-              "RelativeToolTip": "eBiletServer.Infrastructure\\Services\\SendFailedEmailBackgroundService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAswBAAAAAGAAAA",
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCMAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:42:42.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "eBiletServer.WebAPI",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
-              "RelativeDocumentMoniker": "eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
-              "RelativeToolTip": "eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-13T15:50:14.553Z",
+              "WhenOpened": "2024-03-14T15:42:04.735Z",
               "EditorCaption": ""
             }
           ]

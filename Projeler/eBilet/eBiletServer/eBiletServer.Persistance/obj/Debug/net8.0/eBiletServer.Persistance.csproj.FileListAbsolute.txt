@@ -34,3 +34,5 @@ C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Pers
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Persistance\obj\Debug\net8.0\refint\eBiletServer.Persistance.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Persistance\obj\Debug\net8.0\eBiletServer.Persistance.pdb
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Persistance\obj\Debug\net8.0\ref\eBiletServer.Persistance.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Persistance\bin\Debug\net8.0\eBiletServer.Persistance.runtimeconfig.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Persistance\obj\Debug\net8.0\eBiletServer.Persistance.genruntimeconfig.cache

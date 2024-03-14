@@ -1,4 +1,5 @@
 ﻿using eBiletServer.Application.Behaviors;
+using eBiletServer.Domain.Entities;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -12,7 +13,7 @@ public static class DependencyInjection
 
         services.AddMediatR(configuration =>
         {
-            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            configuration.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly(), typeof(AppUser).Assembly);
             configuration.AddOpenBehavior(typeof(ValidationBehavior<,>));
         });
 
