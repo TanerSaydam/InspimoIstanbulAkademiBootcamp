@@ -208,6 +208,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\eBiletServer.Application.csproj": {
+                "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\eBiletServer.Application.csproj"
+              },
               "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\eBiletServer.Domain.csproj": {
                 "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\eBiletServer.Domain.csproj"
               }
@@ -232,6 +235,10 @@
             "FluentEmail.Smtp": {
               "target": "Package",
               "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",

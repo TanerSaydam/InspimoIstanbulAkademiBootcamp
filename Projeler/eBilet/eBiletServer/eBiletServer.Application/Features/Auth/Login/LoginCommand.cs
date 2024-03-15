@@ -1,4 +1,6 @@
-﻿using eBiletServer.Domain.Entities;
+﻿using eBiletServer.Application.Services;
+using eBiletServer.Domain.Dtos;
+using eBiletServer.Domain.Entities;
 using eBiletServer.Domain.Utilities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -7,14 +9,15 @@ using Microsoft.EntityFrameworkCore;
 namespace eBiletServer.Application.Features.Auth.Login;
 public sealed record LoginCommand(
     string EmailOrUserName,
-    string Password) : IRequest<Result<string>>;
+    string Password) : IRequest<Result<LoginResponseDto>>;
 
 internal sealed class LoginCommandHandler(
     SignInManager<AppUser> signInManager,
-    UserManager<AppUser> userManager
-    ) : IRequestHandler<LoginCommand, Result<string>>
+    UserManager<AppUser> userManager,
+    IJwtProvider jwtProvider
+    ) : IRequestHandler<LoginCommand, Result<LoginResponseDto>>
 {
-    public async Task<Result<string>> Handle(LoginCommand request, CancellationToken cancellationToken)
+    public async Task<Result<LoginResponseDto>> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         AppUser? appUser = await userManager.Users.FirstOrDefaultAsync(p =>
                                                                         p.Email == request.EmailOrUserName ||
@@ -22,35 +25,36 @@ internal sealed class LoginCommandHandler(
 
         if(appUser is null)
         {
-            return Result<string>.Failure("User not found");
-        }
+            return Result<LoginResponseDto>.Failure("User not found");
+        }        
 
-        SignInResult signInResult = await signInManager.CheckPasswordSignInAsync(appUser, request.Password, false);
-        if(!signInResult.Succeeded)
-        {
-            return Result<string>.Failure("Password is wrong");
-        }
+        SignInResult signInResult = await signInManager.CheckPasswordSignInAsync(appUser, request.Password, true);
 
         if (signInResult.IsNotAllowed)
         {
-            return Result<string>.Failure("Your email is not confirmed");
+            return Result<LoginResponseDto>.Failure("Your email is not confirmed");
         }
 
         if (signInResult.IsLockedOut)
         {
             TimeSpan? timeSpan = appUser.LockoutEnd - DateTime.UtcNow;
-            if(timeSpan is not null)
+            if (timeSpan is not null)
             {
-                return Result<string>.Failure($"Your account has been locked for {Math.Ceiling(timeSpan.Value.TotalMinutes)} minutes due to entering the wrong password 3 times");
+                return Result<LoginResponseDto>.Failure($"Your account has been locked for {Math.Ceiling(timeSpan.Value.TotalMinutes)} minutes due to entering the wrong password 3 times");
             }
             else
             {
-                return Result<string>.Failure("Your account has been locked out for 5 minutes due to entering the wrong password 3 times");
+                return Result<LoginResponseDto>.Failure("Your account has been locked out for 5 minutes due to entering the wrong password 3 times");
             }
         }
 
-        string token = Guid.NewGuid().ToString();
+        if (!signInResult.Succeeded)
+        {
+            return Result<LoginResponseDto>.Failure("Password is wrong");
+        }
 
-        return Result<string>.Succeed(token);
+        var response = await jwtProvider.CreateTokenAsync(appUser, cancellationToken);
+
+        return response;
     }
 }

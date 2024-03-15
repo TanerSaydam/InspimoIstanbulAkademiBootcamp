@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.prestantion\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|solutionrelative:ebiletserver.prestantion\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\auth\\createtokenbyrefreshtoken\\createtokenbyrefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\auth\\createtokenbyrefreshtoken\\createtokenbyrefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|solutionrelative:ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F69F0DBD-266C-46D7-94A1-E93D5BF69208}|eBiletServer.Infrastructure\\eBiletServer.Infrastructure.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F69F0DBD-266C-46D7-94A1-E93D5BF69208}|eBiletServer.Infrastructure\\eBiletServer.Infrastructure.csproj|solutionrelative:ebiletserver.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.domain\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|solutionrelative:ebiletserver.domain\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|solutionrelative:ebiletserver.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,110 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Persistance\\DependencyInjection.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\DependencyInjection.cs",
-              "RelativeToolTip": "eBiletServer.Persistance\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Prestantion\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eBiletServer.Prestantion\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:47:38.244Z",
+              "WhenOpened": "2024-03-15T15:49:05.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTokenByRefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\CreateTokenByRefreshToken\\CreateTokenByRefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Auth\\CreateTokenByRefreshToken\\CreateTokenByRefreshTokenCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\CreateTokenByRefreshToken\\CreateTokenByRefreshTokenCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Auth\\CreateTokenByRefreshToken\\CreateTokenByRefreshTokenCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:43:35.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "eBiletServer.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "eBiletServer.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:47:32.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
               "RelativeToolTip": "eBiletServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowCMAAABIAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwDUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:42:04.735Z",
+              "WhenOpened": "2024-03-15T15:36:41.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Services\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:36:00.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Dtos\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Domain\\Dtos\\LoginResponseDto.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Dtos\\LoginResponseDto.cs",
+              "RelativeToolTip": "eBiletServer.Domain\\Dtos\\LoginResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:33:07.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Infrastructure\\Authentication\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Infrastructure\\Authentication\\JwtProvider.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Infrastructure\\Authentication\\JwtProvider.cs",
+              "RelativeToolTip": "eBiletServer.Infrastructure\\Authentication\\JwtProvider.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwD4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:31:03.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240315153020_mg2.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs",
+              "RelativeToolTip": "eBiletServer.Persistance\\Migrations\\20240315153020_mg2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:30:20.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "eBiletServer.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:28:51.717Z",
               "EditorCaption": ""
             }
           ]

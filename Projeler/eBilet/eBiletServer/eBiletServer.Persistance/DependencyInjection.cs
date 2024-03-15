@@ -1,6 +1,7 @@
 ﻿using eBiletServer.Domain.Entities;
 using eBiletServer.Domain.Repositories;
 using eBiletServer.Persistance.Context;
+using eBiletServer.Persistance.Options;
 using eBiletServer.Persistance.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -17,18 +18,8 @@ public static class DependencyInjection
             options.UseSnakeCaseNamingConvention();
         });
 
-        services.AddIdentity<AppUser, IdentityRole<Guid>>(
-            options =>
-            {
-                options.SignIn.RequireConfirmedEmail = true;
-                options.Password.RequiredLength = 1;
-                options.Password.RequireDigit = false;
-                options.Password.RequireNonAlphanumeric = false;
-                options.Lockout.AllowedForNewUsers = true;
-                options.Lockout.MaxFailedAccessAttempts = 3;
-                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-
-            }).AddEntityFrameworkStores<ApplicationDbContext>();
+        services.ConfigureOptions<IdentityOptionsSetup>();
+        services.AddIdentity<AppUser, IdentityRole<Guid>>().AddEntityFrameworkStores<ApplicationDbContext>();
 
         services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
 

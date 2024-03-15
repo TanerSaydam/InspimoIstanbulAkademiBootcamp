@@ -1,12 +1,14 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 15.03.2024 (Gelecek ders)
+## 16.03.2024 (Gelecek ders) 
+- Angular Projemizi Oluşturma
+- Frontend Tasarımı
+
+## 15.03.2024
 - Login
 - SigninInManager
 - JWT
 - Refresh Token
-- Angular Projemizi Oluşturma
-- Frontend Tasarımı
 
 ## 14.03.2024
 - Domain Event

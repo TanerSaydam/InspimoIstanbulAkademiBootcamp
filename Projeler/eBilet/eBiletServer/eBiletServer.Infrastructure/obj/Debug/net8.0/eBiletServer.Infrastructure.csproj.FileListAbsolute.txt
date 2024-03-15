@@ -14,3 +14,5 @@ C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infr
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Domain.pdb
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletServer.Infrastructure.csproj.AssemblyReference.cache
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\obj\Debug\net8.0\eBiletSe.5BD510E7.Up2Date
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.Infrastructure\bin\Debug\net8.0\eBiletServer.Application.pdb

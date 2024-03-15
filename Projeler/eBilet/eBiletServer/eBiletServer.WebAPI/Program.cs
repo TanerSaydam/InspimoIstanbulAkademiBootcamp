@@ -2,8 +2,11 @@ using eBiletServer.Application;
 using eBiletServer.Infrastructure;
 using eBiletServer.Infrastructure.Services;
 using eBiletServer.Persistance;
+using eBiletServer.Prestantion.Controllers;
 using eBiletServer.WebAPI.Middleware;
 using eBiletServer.WebAPI.Options;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
@@ -19,15 +22,14 @@ builder.Services
     .AddSmtpSender(emailSettings.SMTP, emailSettings.Port);
 
 builder.Services.AddPersistance();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
 
 builder.Services.AddExceptionHandler<ExceptionMiddleware>().AddProblemDetails();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddApplicationPart(typeof(AuthController).Assembly);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 var app = builder.Build();
 
@@ -41,8 +43,10 @@ app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
+app.MapControllers().RequireAuthorization(policy =>
+{
+    policy.RequireClaim("UserId");
+    policy.AddAuthenticationSchemes("Bearer");
+});
 
 app.Run();

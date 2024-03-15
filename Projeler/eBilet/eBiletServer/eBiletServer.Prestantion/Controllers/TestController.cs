@@ -19,6 +19,12 @@ public sealed class TestController : ApiController
     }
 
     [HttpGet]
+    public IActionResult CheckAPI()
+    {
+        return Ok(new { Message = "API Çalışıyor..." });
+    }
+
+    [HttpGet]
     public async Task<IActionResult> SendTestEmailBy3FailOptions(CancellationToken cancellationToken)
     {
         int tryCount = 0;
