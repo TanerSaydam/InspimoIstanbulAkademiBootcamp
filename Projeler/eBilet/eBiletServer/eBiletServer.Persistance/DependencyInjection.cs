@@ -19,7 +19,14 @@ public static class DependencyInjection
         });
 
         services.ConfigureOptions<IdentityOptionsSetup>();
-        services.AddIdentity<AppUser, IdentityRole<Guid>>().AddEntityFrameworkStores<ApplicationDbContext>();
+        services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
+        {
+            options.Password.RequiredLength = 1;
+            options.Password.RequireUppercase = false;
+            options.Password.RequireUppercase = false;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireDigit = false;            
+        }).AddEntityFrameworkStores<ApplicationDbContext>();
 
         services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
 

@@ -1,6 +1,9 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 16.03.2024 (Gelecek ders) 
+## 20.03.2024 (Gelecek ders) 
+- Frontend Tasarımı Devam
+
+## 19.03.2024
 - Angular Projemizi Oluşturma
 - Frontend Tasarımı
 

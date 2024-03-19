@@ -1,0 +1,50 @@
+<div class="row d-flex justify-content-center align-items-center" style="height: 98vh;">
+    <div class="col-xl-4 col-lg-6 col md-12 col-sm-12 col-12">
+        <div class="card">
+            <div class="card-header">
+                <h1>Login Page</h1>
+                <p>Please fill your information to sign in</p>
+            </div>
+            <div class="card-body">
+                <form #loginForm="ngForm" formValidate autocomplete="off" (ngSubmit)="login(loginForm)">
+                    <div class="form-group" style="position: relative;">
+                        <label>Email or UserName</label>
+                       <input
+                          type="text"
+                          class="form-control"
+                          [(ngModel)]="loginModel.emailOrUserName"
+                          name="emailOrUserName"
+                          placeholder="jhon"
+                          required
+                          minlength="3">
+                        <div class="invalid-feedback"></div>
+                        <i class="fa-solid fa-user eye"></i>
+                    </div>
+                    <div class="form-group mt-2" style="position: relative;">
+                        <label>Password</label>
+                        <input
+                          type="password"
+                          #passwordInput
+                          [(ngModel)]="loginModel.password"
+                          class="form-control"
+                          name="password"
+                          placeholder="*****"
+                          required>
+                        <div class="invalid-feedback"></div>
+                        @if(isShowPassword){
+                            <i (click)="showOrHidePassword()" class="fa-solid fa-eye-slash eye"></i>
+                        }@else {
+                            <i (click)="showOrHidePassword()" class="fa-solid fa-eye eye"></i>
+                        }
+                    </div>
+                    <div class="form-group mt-2">
+                        <button type="submit" class="btn btn-dark w-100">
+                            <i class="fa-solid fa-lock me-1"></i>
+                            Sign In
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

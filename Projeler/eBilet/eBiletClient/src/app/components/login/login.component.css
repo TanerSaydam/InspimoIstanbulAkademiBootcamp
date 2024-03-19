@@ -1,0 +1,12 @@
+.eye{
+    position: absolute; 
+    top: 25px; 
+    left: 0px;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+input{
+    padding-left: 45px !important;
+}

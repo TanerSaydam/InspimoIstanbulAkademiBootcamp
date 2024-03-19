@@ -18,6 +18,19 @@
           }
         }
       },
+      "DefaultCorsPolicy/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/DefaultCorsPolicyNugetPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/DefaultCorsPolicyNugetPackage.dll": {}
+        }
+      },
       "EFCore.NamingConventions/8.0.3": {
         "type": "package",
         "dependencies": {
@@ -252,6 +265,26 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cors/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {
             "related": ".xml"
           }
         }
@@ -2093,6 +2126,20 @@
         "lib/net6.0/AutoMapper.xml"
       ]
     },
+    "DefaultCorsPolicy/8.0.0": {
+      "sha512": "walN0TmGCjfbh7InBmKXtReYEc/NC3MuPxIdsmeQlMefDaa/WoPOGupk/lfrGNPlVXI/w0hK2hxoLzQ82J+k7w==",
+      "type": "package",
+      "path": "defaultcorspolicy/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "defaultcorspolicy.8.0.0.nupkg.sha512",
+        "defaultcorspolicy.nuspec",
+        "lib/net8.0/DefaultCorsPolicyNugetPackage.dll",
+        "logo.png"
+      ]
+    },
     "EFCore.NamingConventions/8.0.3": {
       "sha512": "TdDarM6kyIS2oVIhrs3W+r+xL/76ooFJxIXxfhzsNJQu0pB9VdFZwuyKvKJnhoc7OHYFNTBP08AN37kr4CPc+Q==",
       "type": "package",
@@ -2312,6 +2359,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.xml",
         "microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authorization.policy.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cors/2.2.0": {
+      "sha512": "LFlTM3ThS3ZCILuKnjy8HyK9/IlDh3opogdbCVx6tMGyDzTQBgMPXLjGDLtMk5QmLDCcP3l1TO3z/+1viA8GUg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cors/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cors.xml",
+        "microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.cors.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.2": {
@@ -5097,6 +5157,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DefaultCorsPolicy >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "eBiletServer.Application >= 1.0.0",
@@ -5172,6 +5233,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "DefaultCorsPolicy": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

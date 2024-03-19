@@ -196,3 +196,5 @@ C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebA
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebAPI\bin\Debug\net8.0\DefaultCorsPolicyNugetPackage.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\eBilet\eBiletServer\eBiletServer.WebAPI\obj\Debug\net8.0\eBiletServer.WebAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -1,3 +1,4 @@
+using DefaultCorsPolicyNugetPackage;
 using eBiletServer.Application;
 using eBiletServer.Infrastructure;
 using eBiletServer.Infrastructure.Services;
@@ -13,6 +14,8 @@ using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
+builder.Services.AddDefaultCors();
 
 var serviceProvider = builder.Services.BuildServiceProvider();
 var emailSettings = serviceProvider.GetRequiredService<IOptions<EmailSettings>>().Value;
@@ -38,6 +41,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseExceptionHandler();
 

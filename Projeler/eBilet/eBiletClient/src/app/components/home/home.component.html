@@ -1,0 +1,66 @@
+<div class="form-group mt-2 text-center">
+    <h3>Welcome Taner!</h3>
+</div>
+<section class="d-flex" style="gap: 15px;">
+<div class="form-group">
+    <label>From</label>
+    <select class="form-control">
+        <option>Kayseri</option>
+        <option>İstanbul</option>
+        <option>İzmir</option>
+        <option>Ankara</option>
+    </select>
+</div>
+<div class="form-group">
+    <label>To</label>
+    <select class="form-control">
+        <option>Kayseri</option>
+        <option>İstanbul</option>
+        <option>İzmir</option>
+        <option>Ankara</option>
+    </select>
+</div>
+<div class="form-group">
+    <label>Date</label>
+    <input type="date" class="form-control" value="2024-03-19">
+</div>
+<div class="form-group" style="margin-top: 23px;">
+    <button class="btn btn-dark">Search</button>
+</div>
+</section>
+
+<section>
+    @for(route of routes;track route){
+        <div class="card mt-2">
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Date</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kayseri</td>
+                            <td>Ankara</td>
+                            <td>19.03.2024 18:40</td>
+                            <td>180 ₺</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-danger" id="buyTicketBtn-{{$index}}" data-bs-toggle="collapse" style="float: right;">Buy Ticket</button>
+            </div>
+            <div class="card-body">
+                <div class="collapse" id="detail{{$index}}">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+            </div>
+        </div>
+    }
+  
+</section>
