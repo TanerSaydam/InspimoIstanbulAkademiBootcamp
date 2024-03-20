@@ -1,0 +1,57 @@
+.seats-div{
+    display: flex;
+    gap: 12px;
+}
+
+.seat{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    margin-bottom: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    user-select: none;
+}
+
+.seat:hover{
+    background-color: #9bceb6;
+    color: black;
+}
+
+.active{
+    background-color: #198754;
+    color: white;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.full-female, .full-male:hover{
+    background-color: #dc3545;
+    color: white;
+    cursor: context-menu !important;
+}
+
+.full-male, .full-female:hover{
+    background-color: #0d6efd !important;
+    color: white !important;
+    cursor: context-menu !important;
+}
+
+.driver, .driver:hover{
+    background-color: #343a40;
+    color: white;
+    cursor: context-menu;
+}
+
+
+@media screen and (max-width:800px) {
+    .seat{
+        width: 22px;
+        height: 22px;
+    }
+}

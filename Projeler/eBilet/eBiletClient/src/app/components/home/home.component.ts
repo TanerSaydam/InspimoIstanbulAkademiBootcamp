@@ -10,13 +10,53 @@ import { AfterViewInit, Component, ElementRef, Renderer2, ViewEncapsulation } fr
   encapsulation: ViewEncapsulation.None
 })
 export class HomeComponent implements AfterViewInit {
-  
-  routes:any[] = [1,2,3,4,5]
+  selectedSeat: number = 0;
 
+  routes:any[] = [1,2,3,4,5]
+  rows:any[] = []  
   constructor(
     private renderer: Renderer2, 
     private el: ElementRef
-  ){}
+  ){
+    let seatNumberCount = 0;
+    for (let i = 1; i <= 12; i++) { 
+      let seats = [];        
+      for (let z = 5; z >= 1; z--) {
+        if(z === 2 || z === 3){
+          const emptyData = {
+            num: -1,
+            isNoSeat:true
+          };
+          seats.push(emptyData);
+        }else{
+          seatNumberCount++;
+          const data = {
+            num: seatNumberCount,
+            isNoSeat:false,
+            isAvailable: seatNumberCount % 3 ? true : false,
+            isFemale: seatNumberCount % 2 ? true : false,
+          }
+          seats.push(data);
+        }        
+      }   
+
+      seats = seats.sort((a,b)=> {
+        if(a.num === -1) return -1;
+        if ( a.num < b.num ){
+          return 1;
+        }
+        if ( a.num > b.num ){
+          return -1;
+        }
+        return 0;
+      })
+
+      this.rows.push({seats: seats});
+    }  
+    
+    console.log(this.rows);
+    
+  }
 
   ngAfterViewInit(): void {
     for(let index in this.routes){
@@ -25,5 +65,25 @@ export class HomeComponent implements AfterViewInit {
         this.renderer.setAttribute(btnEl, 'data-bs-target', `#detail${index}`);
       }
     }
+  }
+
+  selectSeat(num:number){
+    this.selectedSeat = num;
+  }
+
+  setActiveCassIfThisSeatSelected(num: number){
+    if(this.selectedSeat === num){
+      return "active";
+    }
+
+    return "";
+  }
+
+  paintFullSeatByGender(seat:any){
+    if(seat.isFemale) {
+      return "full-female"
+    }
+
+    return "full-male";
   }
 }
