@@ -1,0 +1,143 @@
+<h1>Bus List</h1>
+<div class="row mt-2">
+    <div class="col-9">
+        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#addModal">
+            <i class="fa-solid fa-plus me-1"></i>
+            Add Bus
+        </button>
+    </div>
+    <div class="col-3" style="position: relative;">
+        <input type="search" [(ngModel)]="search" class="form-control" placeholder="Search something...">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+    </div>
+</div>
+
+<div class="form-group mt-2">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Plate</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(bus of buses | bus: search; track bus){
+                <tr>
+                    <td>{{$index + 1}}</td>
+                    <td>{{bus.brand}}</td>
+                    <td>{{bus.model}}</td>
+                    <td>{{bus.plate}}</td>
+                    <td>
+                        <button (click)="get(bus)" data-bs-toggle="modal" data-bs-target="#updateModal" class="btn btn-sm btn-outline-primary me-2">
+                            <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button (click)="deleteById(bus.id)" class="btn btn-sm btn-outline-danger">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }            
+        </tbody>
+    </table>
+</div>
+
+<!-- Add Model -->
+<div class="modal fade" id="addModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">
+                    Add Bus Form
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    #addModalCloseBtn></button>
+            </div>
+            <form #addForm="ngForm" formValidate autocomplete="off" (ngSubmit)="create(addForm)">
+                <div class="modal-body">
+                    <!-- Brand -->
+                    <div class="form-group">
+                        <label>Brand</label>
+                        <select class="form-control" name="brand" [(ngModel)]="addModel.brand" required>
+                            <option value="">Select one...</option>
+                            @for(brand of brands;track brand){
+                                <option>{{brand}}</option>
+                            }
+                        </select>                        
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Model -->
+                    <div class="form-group mt-2">
+                        <label>Model</label>
+                        <input type="number" class="form-control" [(ngModel)]="addModel.model" name="model" required min="2000">
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Plate -->
+                    <div class="form-group mt-2">
+                        <label>Plate</label>
+                        <input type="text" class="form-control" [(ngModel)]="addModel.plate" name="plate" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-dark">
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Update Model -->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">
+                    Update Bus Form
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    #updateModalCloseBtn></button>
+            </div>
+            <form #updateForm="ngForm" formValidate autocomplete="off" (ngSubmit)="update(updateForm)">
+                <div class="modal-body">
+                    <!-- Brand -->
+                    <div class="form-group">
+                        <label>Brand</label>
+                        <select class="form-control" name="updateBrand" [(ngModel)]="updateModel.brand" required>
+                            <option value="">Select one...</option>
+                            @for(brand of brands;track brand){
+                                <option>{{brand}}</option>
+                            }
+                        </select>                        
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Model -->
+                    <div class="form-group mt-2">
+                        <label>Model</label>
+                        <input type="number" class="form-control" [(ngModel)]="updateModel.model" name="updateModel" required min="2000">
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Plate -->
+                    <div class="form-group mt-2">
+                        <label>Plate</label>
+                        <input type="text" class="form-control" [(ngModel)]="updateModel.plate" name="updatePlate" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">
+                        Update
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

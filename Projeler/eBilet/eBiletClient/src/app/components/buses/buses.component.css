@@ -1,0 +1,15 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.search{
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+
+[type="search"]{
+    padding-left: 40px;
+}

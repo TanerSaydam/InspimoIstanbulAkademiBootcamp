@@ -35,6 +35,7 @@ export class HomeComponent implements AfterViewInit {
             isNoSeat:false,
             isAvailable: seatNumberCount % 3 ? true : false,
             isFemale: seatNumberCount % 2 ? true : false,
+            isSelected: false
           }
           seats.push(data);
         }        
@@ -66,17 +67,15 @@ export class HomeComponent implements AfterViewInit {
       }
     }
   }
-
-  selectSeat(num:number){
-    this.selectedSeat = num;
-  }
-
-  setActiveCassIfThisSeatSelected(num: number){
-    if(this.selectedSeat === num){
-      return "active";
+    
+  selectSeat(seat:any){
+    for(let row of this.rows){
+      for(let data of row.seats){
+        data.isSelected = false;
+      }
     }
 
-    return "";
+    seat.isSelected = true;    
   }
 
   paintFullSeatByGender(seat:any){

@@ -68,21 +68,20 @@
                         @for(row of rows;track row){
                         <div>                              
                             @for(seat of row.seats; track seat){
-                            @if(seat.isNoSeat){
-                            <div class="seat hide"></div>
-                            }@else {
-                                @if(seat.isAvailable){
-                                    <div class="seat" [ngClass]="setActiveCassIfThisSeatSelected(seat.num)"
-                                    (click)="selectSeat(seat.num)">
-                                    {{seat.num}}
-                                </div>
+                                @if(seat.isNoSeat){
+                                    <div class="seat hide"></div>
                                 }@else {
-                                    <div class="seat" [ngClass]="paintFullSeatByGender(seat)">
-                                    {{seat.num}}
-                                </div>
+                                    @if(seat.isAvailable){
+                                        <div class="seat" [ngClass]="seat.isSelected ? 'active' : ''" (click)="selectSeat(seat)">
+                                        {{seat.num}}
+                                    </div>
+                                    }@else {
+                                        <div class="seat" [ngClass]="paintFullSeatByGender(seat)">
+                                        {{seat.num}}
+                                    </div>
+                                    }
+                                
                                 }
-                            
-                            }
                             }
                         </div>
 

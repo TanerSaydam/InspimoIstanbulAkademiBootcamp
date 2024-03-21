@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eBiletServer.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7f3874f330a5a7423150a145f83a3cc70a0dd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9aa2c35eecd47042c7a8d0d84677c405f8de93a")]
 [assembly: System.Reflection.AssemblyProductAttribute("eBiletServer.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eBiletServer.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

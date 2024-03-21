@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "EntityFrameworkCore.GenericRepository.Nuget": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "FluentEmail.Smtp": {
               "target": "Package",
               "version": "[3.0.2, )"
@@ -146,6 +150,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "EntityFrameworkCore.GenericRepository.Nuget": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "FluentEmail.Smtp": {
               "target": "Package",
               "version": "[3.0.2, )"

@@ -5,7 +5,7 @@ namespace eBiletServer.Domain.Entities;
 public sealed class Bilet : Entity
 {    
     public Guid RotaId { get; set; }
-    public Rota? Rota { get; set; }
+    public Route? Rota { get; set; }
     public Guid AppUserId {  get; set; }
     public AppUser? AppUser { get; set; }
 }

@@ -41,7 +41,7 @@ export class LoginComponent {
   login(form: NgForm){
     if(form.valid){
       this.http.post<LoginResponseModel>("Auth/Login", this.loginModel, res=> {
-        localStorage.setItem("token", res.value.token);
+        localStorage.setItem("token", res.value!.token);
         this.router.navigateByUrl("/");
       });
     }

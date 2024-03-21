@@ -287,6 +287,33 @@ namespace eBiletServer.Persistance.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("eBiletServer.Domain.Entities.Bus", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("brand");
+
+                    b.Property<int>("Model")
+                        .HasColumnType("integer")
+                        .HasColumnName("model");
+
+                    b.Property<string>("Plate")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("plate");
+
+                    b.HasKey("Id")
+                        .HasName("pk_buses");
+
+                    b.ToTable("buses", (string)null);
+                });
+
             modelBuilder.Entity("eBiletServer.Domain.Entities.OutboxSendEmail", b =>
                 {
                     b.Property<Guid>("Id")
@@ -321,6 +348,44 @@ namespace eBiletServer.Persistance.Migrations
                         .HasName("pk_outbox_send_emails");
 
                     b.ToTable("outbox_send_emails", (string)null);
+                });
+
+            modelBuilder.Entity("eBiletServer.Domain.Entities.Route", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<Guid?>("BusesId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("buses_id");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("date");
+
+                    b.Property<string>("From")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("from");
+
+                    b.Property<Guid>("OtobusId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("otobus_id");
+
+                    b.Property<string>("To")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("to");
+
+                    b.HasKey("Id")
+                        .HasName("pk_routes");
+
+                    b.HasIndex("BusesId")
+                        .HasDatabaseName("ix_routes_buses_id");
+
+                    b.ToTable("routes", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
@@ -378,6 +443,16 @@ namespace eBiletServer.Persistance.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("fk_asp_net_user_tokens_asp_net_users_user_id");
+                });
+
+            modelBuilder.Entity("eBiletServer.Domain.Entities.Route", b =>
+                {
+                    b.HasOne("eBiletServer.Domain.Entities.Bus", "Buses")
+                        .WithMany()
+                        .HasForeignKey("BusesId")
+                        .HasConstraintName("fk_routes_buses_buses_id");
+
+                    b.Navigation("Buses");
                 });
 #pragma warning restore 612, 618
         }

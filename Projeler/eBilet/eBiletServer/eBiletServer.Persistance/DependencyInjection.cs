@@ -3,6 +3,7 @@ using eBiletServer.Domain.Repositories;
 using eBiletServer.Persistance.Context;
 using eBiletServer.Persistance.Options;
 using eBiletServer.Persistance.Repositories;
+using GenericRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,8 @@ public static class DependencyInjection
             options.UseSnakeCaseNamingConvention();
         });
 
+        services.AddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
+
         services.ConfigureOptions<IdentityOptionsSetup>();
         services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
         {
@@ -29,7 +32,7 @@ public static class DependencyInjection
         }).AddEntityFrameworkStores<ApplicationDbContext>();
 
         services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
-
+        services.AddScoped<IBusRepository, BusRepository>();
         return services;
     }
 }

@@ -1,7 +1,11 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 21.03.2024 (Gelecek ders) 
-- Buses ve Routes CRUD İşlemleri (Backend + Frontend)
+## 22.03.2024 (Gelecek ders) 
+- Cache (Memory & Redis)
+- Route CRUD İşlemleri (Backend + Frontend)
+
+## 21.03.2024
+- Buses CRUD İşlemleri (Backend + Frontend)
 
 ## 20.03.2024
 - Frontend Tasarımı Devam

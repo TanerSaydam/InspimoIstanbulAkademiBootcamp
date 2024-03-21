@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "b1Xim6ob2vE5BwMAbulfk1MIXViU9CslJHVR/b/E+UHzblPnahlEcoRGrdbe8w1mPjdu9+yTQT9FaELaj2dGBA==",
+  "dgSpecHash": "Cj7aRJPgJ/FdTOXQ4zvWWvxLNtGy7Wgzge+ALffJVSS63vk7b5ZblCVXQL0Gxs6rvyXBb40n91lh7LAXBgOg7g==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taner\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\defaultcorspolicy\\8.0.0\\defaultcorspolicy.8.0.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\entityframeworkcore.genericrepository.nuget\\8.0.1\\entityframeworkcore.genericrepository.nuget.8.0.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\fluentemail.core\\3.0.2\\fluentemail.core.3.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\fluentemail.smtp\\3.0.2\\fluentemail.smtp.3.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

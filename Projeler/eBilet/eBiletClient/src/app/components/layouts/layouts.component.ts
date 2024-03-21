@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-layouts',
@@ -11,4 +11,12 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 })
 export class LayoutsComponent {
 
+  constructor(
+    private router: Router
+  ){}
+
+  logout(){
+    localStorage.clear();
+    this.router.navigateByUrl("/login");
+  }
 }

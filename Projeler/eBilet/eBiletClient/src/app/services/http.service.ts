@@ -14,7 +14,7 @@ export class HttpService {
     private error:ErrorService
   ) { }
 
-  post<T>(endpoint: string, data:any, callBack: (res:any)=> void){
+  post<T>(endpoint: string, data:any, callBack: (res:ResultModel<T>)=> void){
     this.http.post<ResultModel<T>>(`${api}/${endpoint}`, data).subscribe({
         next: (res: any)=> {
           callBack(res);
