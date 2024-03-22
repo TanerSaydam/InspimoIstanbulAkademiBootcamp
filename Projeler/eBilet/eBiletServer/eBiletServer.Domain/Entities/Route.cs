@@ -8,6 +8,6 @@ public sealed class Route : Entity
     public string To {  get; set; } = string.Empty;
     public DateTime Date { get; set; }
 
-    public Guid OtobusId { get; set; }
-    public Bus? Buses { get; set; }
+    public Guid BusId { get; set; }
+    public Bus? Bus { get; set; }
 }

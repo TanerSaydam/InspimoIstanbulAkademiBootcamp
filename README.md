@@ -1,8 +1,11 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
 
-## 22.03.2024 (Gelecek ders) 
-- Cache (Memory & Redis)
+## 23.03.2024 (Gelecek Ders) 
+- Redis Cache
 - Route CRUD İşlemleri (Backend + Frontend)
+
+## 22.03.2024
+- Cache (Memory & Redis)
 
 ## 21.03.2024
 - Buses CRUD İşlemleri (Backend + Frontend)

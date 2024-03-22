@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cj7aRJPgJ/FdTOXQ4zvWWvxLNtGy7Wgzge+ALffJVSS63vk7b5ZblCVXQL0Gxs6rvyXBb40n91lh7LAXBgOg7g==",
+  "dgSpecHash": "vkj1EpuWpd3qeOHBXgBey6NsnKP9KEctkuzN2Y2+XzkdvBRbQUiC/OcpuTzRBFkfpzVmx5mUtGL294N6Oy1JEg==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -85,6 +85,7 @@
     "C:\\Users\\taner\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

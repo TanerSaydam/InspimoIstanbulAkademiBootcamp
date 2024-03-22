@@ -1,0 +1,15 @@
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\bin\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.exe
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\bin\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.deps.json
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\bin\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.runtimeconfig.json
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\bin\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\bin\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.pdb
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\refint\OutaAndRefKeyWord.ConsoleApp.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.pdb
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\OutaAndRefKeyWord.ConsoleApp.genruntimeconfig.cache
+C:\InspimoIstanbulAkademiBootcamp\C#\OutaAndRefKeyWord.ConsoleApp\obj\Debug\net8.0\ref\OutaAndRefKeyWord.ConsoleApp.dll

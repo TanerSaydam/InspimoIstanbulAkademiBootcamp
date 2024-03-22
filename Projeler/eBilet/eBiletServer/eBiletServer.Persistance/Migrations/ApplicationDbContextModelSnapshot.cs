@@ -357,9 +357,9 @@ namespace eBiletServer.Persistance.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<Guid?>("BusesId")
+                    b.Property<Guid>("BusId")
                         .HasColumnType("uuid")
-                        .HasColumnName("buses_id");
+                        .HasColumnName("bus_id");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("timestamp with time zone")
@@ -370,10 +370,6 @@ namespace eBiletServer.Persistance.Migrations
                         .HasColumnType("text")
                         .HasColumnName("from");
 
-                    b.Property<Guid>("OtobusId")
-                        .HasColumnType("uuid")
-                        .HasColumnName("otobus_id");
-
                     b.Property<string>("To")
                         .IsRequired()
                         .HasColumnType("text")
@@ -382,8 +378,8 @@ namespace eBiletServer.Persistance.Migrations
                     b.HasKey("Id")
                         .HasName("pk_routes");
 
-                    b.HasIndex("BusesId")
-                        .HasDatabaseName("ix_routes_buses_id");
+                    b.HasIndex("BusId")
+                        .HasDatabaseName("ix_routes_bus_id");
 
                     b.ToTable("routes", (string)null);
                 });
@@ -447,12 +443,14 @@ namespace eBiletServer.Persistance.Migrations
 
             modelBuilder.Entity("eBiletServer.Domain.Entities.Route", b =>
                 {
-                    b.HasOne("eBiletServer.Domain.Entities.Bus", "Buses")
+                    b.HasOne("eBiletServer.Domain.Entities.Bus", "Bus")
                         .WithMany()
-                        .HasForeignKey("BusesId")
-                        .HasConstraintName("fk_routes_buses_buses_id");
+                        .HasForeignKey("BusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_routes_buses_bus_id");
 
-                    b.Navigation("Buses");
+                    b.Navigation("Bus");
                 });
 #pragma warning restore 612, 618
         }

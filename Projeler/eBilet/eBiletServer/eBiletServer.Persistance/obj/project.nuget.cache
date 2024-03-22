@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6H0cQlVUaTr76P+BM3uKmQoU+p5Jp0NVPiNOk+Ej7sPbjCP2aikJ5y+2TKXcAXQOId4pbKtJrkIAw8MCB7+yUQ==",
+  "dgSpecHash": "Bh5HAfvhxMzSliPLSwua89KXNoQtA8TM+pF1SluxCdfKWSB/PXozOfLmgtqhQHDWTLiv24jg6BxjNSwfJsV1QA==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\eBiletServer.Persistance.csproj",
   "expectedPackageFiles": [
@@ -68,6 +68,7 @@
     "C:\\Users\\taner\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

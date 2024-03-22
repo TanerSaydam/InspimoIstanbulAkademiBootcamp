@@ -9,6 +9,7 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
+        services.AddMemoryCache();
         services.AddAutoMapper(typeof(DependencyInjection).Assembly);
 
         services.AddMediatR(configuration =>

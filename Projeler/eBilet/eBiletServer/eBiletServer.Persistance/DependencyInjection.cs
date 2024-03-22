@@ -7,6 +7,7 @@ using GenericRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Scrutor;
 
 namespace eBiletServer.Persistance;
 public static class DependencyInjection
@@ -31,8 +32,19 @@ public static class DependencyInjection
             options.Password.RequireDigit = false;            
         }).AddEntityFrameworkStores<ApplicationDbContext>();
 
-        services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
-        services.AddScoped<IBusRepository, BusRepository>();
+        //services.AddScoped<IOutboxSendEmailRepository, OutboxSendEmailRepository>();
+        //services.AddScoped<IBusRepository, BusRepository>();
+        //services.AddScoped<IRouteRepository, RouteRepository>();
+
+        services.Scan(action =>
+        {
+            action
+                .FromAssemblies(typeof(BusRepository).Assembly)
+                .AddClasses(publicOnly: false)
+                .UsingRegistrationStrategy(RegistrationStrategy.Skip)
+                .AsImplementedInterfaces()
+                .WithScopedLifetime();
+        });
         return services;
     }
 }
