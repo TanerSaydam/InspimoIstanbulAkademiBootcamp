@@ -39,6 +39,7 @@ redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin ça
 docker run --name some-redis -p 6379:6379 -d redis
 
 //çalışıp çalışmadığını aşağıdaki kod ile kontrol edebiliyorsunuz
-docker exec -it some-redis redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
+docker exec -it some-redis redis-cli ping
+//bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
 ```
 
