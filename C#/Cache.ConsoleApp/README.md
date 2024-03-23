@@ -12,10 +12,11 @@
 - Denetim masası > Program ekle kaldır > Windows özellikleri aç / kapat'girin
 - Windows Subsystem for Linux seçeneğini seçin ve Ok ile kapatın
 - Microsoft Store üzerinden Ubuntu programını kurun
-- Ubunto programını açtıktan sonra sırayla aşağıdaki kodları çalıştırın
+- Ubuntu programını açtıktan sonra sırayla aşağıdaki kodları çalıştırın
 
 ```bash
-sudo apt update //bu kod ubuntu ile linux console kullanmamız için ayar yapacak ve bir admin şifresi isteyecek. Herhangi bir şifre verebilirsiniz
+sudo apt update //bu kod ubuntu ile linux console kullanmamız için ayar yapacak
+                //bir admin şifresi isteyecek. Herhangi bir şifre verebilirsiniz
 sudo apt install redis-server //Bilgisayarınıza redis server'ı kurmanızı sağlayacak
 redis-server //localhost:6379'da Redis'i ayağa kaldırmanızı sağlar
 redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
