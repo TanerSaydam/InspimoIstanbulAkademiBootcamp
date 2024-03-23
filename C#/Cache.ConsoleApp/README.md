@@ -1,43 +1,45 @@
-# Cache Kütüphaneleri
+# Cache KÃ¼tÃ¼phaneleri
 
 ## Memory Cache
-## Redis Cache
-3 Kurulum yöntemi var 
-  * Windows üzerinde Linux console aktif edip onun üzerinden kurma
+## Redis
+3 Kurulum yÃ¶ntemi var 
+  * Windows Ã¼zerinde Linux console aktif edip onun Ã¼zerinden kurma
   * Redis'in eski bir versiyonunu windows setup ile kurma
-  * Docker üzerinden ayağa kaldırma
+  * Docker Ã¼zerinden ayaÄŸa kaldÄ±rma
 
 
-### Windows üzerinde Linux console aktif edip onun üzerinden kurma
-- Denetim masası > Program ekle kaldır > Windows özellikleri aç / kapat'girin
-- Windows Subsystem for Linux seçeneğini seçin ve Ok ile kapatın
-- Microsoft Store üzerinden Ubuntu programını kurun
-- Ubunto programını açtıktan sonra sırayla aşağıdaki kodları çalıştırın
+### Windows Ã¼zerinde Linux console aktif edip onun Ã¼zerinden kurma
+- Denetim masasÄ± > Program ekle kaldÄ±r > Windows Ã¶zellikleri aÃ§ / kapat'girin
+- Windows Subsystem for Linux seÃ§eneÄŸini seÃ§in ve Ok ile kapatÄ±n
+- Microsoft Store Ã¼zerinden Ubuntu programÄ±nÄ± kurun
+- Ubuntu programÄ±nÄ± aÃ§tÄ±ktan sonra sÄ±rayla aÅŸaÄŸÄ±daki kodlarÄ± Ã§alÄ±ÅŸtÄ±rÄ±n
 
 ```bash
-sudo apt update //bu kod ubuntu ile linux console kullanmamız için ayar yapacak ve bir admin şifresi isteyecek. Herhangi bir şifre verebilirsiniz
-sudo apt install redis-server //Bilgisayarınıza redis server'ı kurmanızı sağlayacak
-redis-server //localhost:6379'da Redis'i ayağa kaldırmanızı sağlar
-redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
+sudo apt update //bu kod ubuntu ile linux console kullanmamÄ±z iÃ§in ayar yapacak
+                //bir admin ÅŸifresi isteyecek. Herhangi bir ÅŸifre verebilirsiniz
+sudo apt install redis-server //BilgisayarÄ±nÄ±za redis server'Ä± kurmanÄ±zÄ± saÄŸlayacak
+redis-server //localhost:6379'da Redis'i ayaÄŸa kaldÄ±rmanÄ±zÄ± saÄŸlar
+redis-cli ping //bu kod karÅŸÄ±lÄ±ÄŸÄ±nda PONG deÄŸeri alÄ±yorsanÄ±z redisin Ã§alÄ±ÅŸtÄ±ÄŸÄ±nÄ± gÃ¶sterir
 ```
 
 ### Redis'in eski bir versiyonunu windows setup ile kurma
-- Aşağıdaki GitHub reposundan Windows kurulumunu indirip kurabilirsiniz.
+- AÅŸaÄŸÄ±daki GitHub reposundan Windows kurulumunu indirip kurabilirsiniz.
 
 ```bash
 https://github.com/tporadowski/redis/releases 
 
-//localhost:6379'da Redis'i ayağa kaldırır
-redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
+//localhost:6379'da Redis'i ayaÄŸa kaldÄ±rÄ±r
+redis-cli ping //bu kod karÅŸÄ±lÄ±ÄŸÄ±nda PONG deÄŸeri alÄ±yorsanÄ±z redisin Ã§alÄ±ÅŸtÄ±ÄŸÄ±nÄ± gÃ¶sterir
 ```
 
-### Docker üzerinden ayağa kaldırma
-- Aşağıdaki docker kodunu konsolda çalıştırmanız yeterli
+### Docker Ã¼zerinden ayaÄŸa kaldÄ±rma
+- AÅŸaÄŸÄ±daki docker kodunu konsolda Ã§alÄ±ÅŸtÄ±rmanÄ±z yeterli
 
 ```bash
 docker run --name some-redis -p 6379:6379 -d redis
 
-//çalışıp çalışmadığını aşağıdaki kod ile kontrol edebiliyorsunuz
-docker exec -it some-redis redis-cli ping //bu kod karşılığında PONG değeri alıyorsanız redisin çalıştığını gösterir
+//Ã§alÄ±ÅŸÄ±p Ã§alÄ±ÅŸmadÄ±ÄŸÄ±nÄ± aÅŸaÄŸÄ±daki kod ile kontrol edebiliyorsunuz
+docker exec -it some-redis redis-cli ping
+//bu kod karÅŸÄ±lÄ±ÄŸÄ±nda PONG deÄŸeri alÄ±yorsanÄ±z redisin Ã§alÄ±ÅŸtÄ±ÄŸÄ±nÄ± gÃ¶sterir
 ```
 
