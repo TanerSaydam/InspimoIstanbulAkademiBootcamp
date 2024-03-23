@@ -1,4 +1,5 @@
 ﻿using eBiletServer.Application.Behaviors;
+using eBiletServer.Application.Services;
 using eBiletServer.Domain.Entities;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +20,8 @@ public static class DependencyInjection
         });
 
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+        services.AddSingleton<RedisService>();
 
         return services;
     }

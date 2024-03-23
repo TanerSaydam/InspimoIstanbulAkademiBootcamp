@@ -1,0 +1,159 @@
+<h1>Route List</h1>
+<div class="row mt-2">
+    <div class="col-9">
+        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#addModal">
+            <i class="fa-solid fa-plus me-1"></i>
+            Add Route
+        </button>
+    </div>
+    <div class="col-3" style="position: relative;">
+        <input type="search" [(ngModel)]="search" class="form-control" placeholder="Search something...">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+    </div>
+</div>
+
+<div class="form-group mt-2">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Date</th>
+                <th>Bus</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(route of routes | route: search; track route){
+                <tr>
+                    <td>{{$index + 1}}</td>
+                    <td>{{route.date | date: 'dd.MM.yyyy HH:mm'}}</td>
+                    <td>{{route.bus.brand}} {{route.bus.plate}}</td>
+                    <td>{{route.from}}</td>
+                    <td>{{route.to}}</td>
+                    <td>
+                        <button (click)="get(route)" data-bs-toggle="modal" data-bs-target="#updateModal" class="btn btn-sm btn-outline-primary me-2">
+                            <i class="fa-solid fa-edit"></i>
+                        </button>
+                        <button (click)="deleteById(route.id)" class="btn btn-sm btn-outline-danger">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }            
+        </tbody>
+    </table>
+</div>
+
+<!-- Add Model -->
+<div class="modal fade" id="addModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">
+                    Add Route Form
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    #addModalCloseBtn></button>
+            </div>
+            <form #addForm="ngForm" formValidate autocomplete="off" (ngSubmit)="create(addForm)">
+                <div class="modal-body">
+                    <!-- Date -->
+                     <div class="form-group">
+                        <label>Date</label>
+                        <input type="datetime-local" class="form-control" [(ngModel)]="addModel.date" name="date" required>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Bus -->
+                    <div class="form-group mt-2">
+                        <label>Bus</label>
+                        <select class="form-control" name="busId" [(ngModel)]="addModel.busId" required>
+                            <option value="">Select one...</option>
+                            @for(bus of buses;track bus){
+                                <option [value]="bus.id">{{bus.brand}} - {{bus.plate}}</option>
+                            }
+                        </select>                        
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- From -->
+                    <div class="form-group mt-2">
+                        <label>From</label>
+                        <input type="text" class="form-control" [(ngModel)]="addModel.from" name="from" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                     <!-- To -->
+                     <div class="form-group mt-2">
+                        <label>To</label>
+                        <input type="text" class="form-control" [(ngModel)]="addModel.to" name="to" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-dark">
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Update Model -->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">
+                    Update Route Form
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                    #updateModalCloseBtn></button>
+            </div>
+            <form #updateForm="ngForm" formValidate autocomplete="off" (ngSubmit)="update(updateForm)">
+                <div class="modal-body">
+                    <!-- Date -->
+                     <div class="form-group">
+                        <label>Date</label>
+                        <input type="datetime-local" class="form-control" [(ngModel)]="updateModel.date" name="updateDate" required>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Bus -->
+                    <div class="form-group mt-2">
+                        <label>Bus</label>
+                        <select class="form-control" name="updateBusId" [(ngModel)]="updateModel.busId" required>
+                            <option value="">Select one...</option>
+                            @for(bus of buses;track bus){
+                                <option [value]="bus.id">{{bus.brand}} - {{bus.plate}}</option>
+                            }
+                        </select>                        
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- From -->
+                    <div class="form-group mt-2">
+                        <label>From</label>
+                        <input type="text" class="form-control" [(ngModel)]="updateModel.from" name="updateFrom" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                     <!-- To -->
+                     <div class="form-group mt-2">
+                        <label>To</label>
+                        <input type="text" class="form-control" [(ngModel)]="updateModel.to" name="updateTo" required minlength="3">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">
+                        Update
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

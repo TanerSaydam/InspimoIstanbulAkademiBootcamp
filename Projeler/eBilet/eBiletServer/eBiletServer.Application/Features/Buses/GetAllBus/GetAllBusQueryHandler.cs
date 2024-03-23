@@ -1,27 +1,35 @@
-﻿using eBiletServer.Domain.Entities;
+﻿using eBiletServer.Application.Services;
+using eBiletServer.Domain.Entities;
 using eBiletServer.Domain.Repositories;
 using eBiletServer.Domain.Utilities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
+using StackExchange.Redis;
+using System.Text.Json;
 
 namespace eBiletServer.Application.Features.Buses.GetAllBus;
 
 internal sealed class GetAllBusQueryHandler(
     IBusRepository busRepository,
-    IMemoryCache memoryCache
+    RedisService redisService
     ) : IRequestHandler<GetAllBusQuery, Result<List<Bus>>>
 {
+    //11:23 görüşelim
     public async Task<Result<List<Bus>>> Handle(GetAllBusQuery request, CancellationToken cancellationToken)
     {
         List<Bus>? buses;
-        memoryCache.TryGetValue("buses", out buses);
+        RedisValue redisValue = redisService.Get("bus");
 
-        if (buses is null)
+        if (redisValue.IsNull)
         {
             buses = await busRepository.GetAll().OrderBy(p => p.Plate).ToListAsync(cancellationToken);
-            memoryCache.Set<List<Bus>>("buses", buses,TimeSpan.FromMinutes(60));
-        }        
+            redisService.Set("bus", buses);
+        }
+        else
+        {
+            buses = JsonSerializer.Deserialize<List<Bus>>(redisValue);
+        }      
 
         return buses;
     }

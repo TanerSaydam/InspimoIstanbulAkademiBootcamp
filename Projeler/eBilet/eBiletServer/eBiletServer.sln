@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Domain", "eBiletServer.Domain\eBiletServer.Domain.csproj", "{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.Domain", "eBiletServer.Domain\eBiletServer.Domain.csproj", "{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Application", "eBiletServer.Application\eBiletServer.Application.csproj", "{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.Application", "eBiletServer.Application\eBiletServer.Application.csproj", "{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Infrastructure", "eBiletServer.Infrastructure\eBiletServer.Infrastructure.csproj", "{F69F0DBD-266C-46D7-94A1-E93D5BF69208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.Infrastructure", "eBiletServer.Infrastructure\eBiletServer.Infrastructure.csproj", "{F69F0DBD-266C-46D7-94A1-E93D5BF69208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Persistance", "eBiletServer.Persistance\eBiletServer.Persistance.csproj", "{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.Persistance", "eBiletServer.Persistance\eBiletServer.Persistance.csproj", "{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.WebAPI", "eBiletServer.WebAPI\eBiletServer.WebAPI.csproj", "{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.WebAPI", "eBiletServer.WebAPI\eBiletServer.WebAPI.csproj", "{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBiletServer.Prestantion", "eBiletServer.Prestantion\eBiletServer.Prestantion.csproj", "{AFB7B161-865F-4AEC-8543-BD2BC907E745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBiletServer.Prestantion", "eBiletServer.Prestantion\eBiletServer.Prestantion.csproj", "{AFB7B161-865F-4AEC-8543-BD2BC907E745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3036A6B-214D-4882-B98F-A9F50C881866}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

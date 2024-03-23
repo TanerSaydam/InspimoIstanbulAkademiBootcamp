@@ -23,3 +23,6 @@ C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\Microsoft
 C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\InspimoIstanbulAkademiBootcamp\C#\Cache.ConsoleApp\bin\Debug\net8.0\System.IO.Pipelines.dll

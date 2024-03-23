@@ -3,15 +3,87 @@
   "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\createroute\\createroutecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\createroute\\createroutecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\createroute\\createroutecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\createroute\\createroutecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|solutionrelative:ebiletserver.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.prestantion\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB7B161-865F-4AEC-8543-BD2BC907E745}|eBiletServer.Prestantion\\eBiletServer.Prestantion.csproj|solutionrelative:ebiletserver.prestantion\\controllers\\routescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\updateroute\\updateroutecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\updateroute\\updateroutecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\buses\\createbus\\createbuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\buses\\createbus\\createbuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\deleteroutebyid\\deleteroutebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\deleteroutebyid\\deleteroutebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\createroute\\createroutecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\createroute\\createroutecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.domain\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0203BA-8FD1-430F-B2A6-704BAE61BE18}|eBiletServer.Domain\\eBiletServer.Domain.csproj|solutionrelative:ebiletserver.domain\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\routes\\getallroute\\getallroutequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\routes\\getallroute\\getallroutequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|solutionrelative:ebiletserver.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\buses\\getallbus\\getallbusqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\buses\\getallbus\\getallbusqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\buses\\deletebusbyid\\deletebusbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\buses\\deletebusbyid\\deletebusbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.persistance\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA6EF0F-8079-4FD6-AA86-7C8A145D4587}|eBiletServer.Persistance\\eBiletServer.Persistance.csproj|solutionrelative:ebiletserver.persistance\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\buses\\updatebus\\updatebuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\buses\\updatebus\\updatebuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\features\\buses\\createbus\\createbuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\features\\buses\\createbus\\createbuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.application\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794B239E-06BC-4AA3-93FA-9533D5D9CC7A}|eBiletServer.Application\\eBiletServer.Application.csproj|solutionrelative:ebiletserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\ebilet\\ebiletserver\\ebiletserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\ebiletserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1755FEDA-2967-4ADE-A4AA-5E9440EA8DE4}|eBiletServer.WebAPI\\eBiletServer.WebAPI.csproj|solutionrelative:ebiletserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +118,215 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteRouteByIdCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\DeleteRouteById\\DeleteRouteByIdCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\DeleteRouteById\\DeleteRouteByIdCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\DeleteRouteById\\DeleteRouteByIdCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\DeleteRouteById\\DeleteRouteByIdCommand.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:37:59.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:00:36.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "eBiletServer.WebAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "eBiletServer.WebAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:04:28.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:57:54.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateBusCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:57:28.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CreateRouteCommandHandler.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandHandler.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandHandler.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandHandler.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:05:15.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateRouteCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:33:58.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateRouteCommand.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\UpdateRoute\\UpdateRouteCommand.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\UpdateRoute\\UpdateRouteCommand.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\UpdateRoute\\UpdateRouteCommand.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\UpdateRoute\\UpdateRouteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:40:24.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoutesController.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\RoutesController.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Prestantion\\Controllers\\RoutesController.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Prestantion\\Controllers\\RoutesController.cs",
+              "RelativeToolTip": "eBiletServer.Prestantion\\Controllers\\RoutesController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADgvxkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:44:16.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateRouteCommandValidator.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandValidator.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandValidator.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandValidator.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\CreateRoute\\CreateRouteCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:37:09.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Route.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\Route.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Domain\\Entities\\Route.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Domain\\Entities\\Route.cs",
+              "RelativeToolTip": "eBiletServer.Domain\\Entities\\Route.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:28:53.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllRouteQuery.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\GetAllRoute\\GetAllRouteQuery.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Routes\\GetAllRoute\\GetAllRouteQuery.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Routes\\GetAllRoute\\GetAllRouteQuery.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Routes\\GetAllRoute\\GetAllRouteQuery.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:24:28.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Persistance\\DependencyInjection.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\DependencyInjection.cs",
+              "RelativeToolTip": "eBiletServer.Persistance\\DependencyInjection.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:23:31.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Persistance\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "eBiletServer.Persistance\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:52:18.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateBusCommandHandler.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommandHandler.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommandHandler.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommandHandler.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Buses\\CreateBus\\CreateBusCommandHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:47:43.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "eBiletServer.Application\\DependencyInjection.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\DependencyInjection.cs",
               "RelativeToolTip": "eBiletServer.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T14:59:14.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "eBiletServer.WebAPI\\Program.cs",
@@ -72,15 +339,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "GetAllBusQueryHandler.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\GetAllBus\\GetAllBusQueryHandler.cs",
               "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Buses\\GetAllBus\\GetAllBusQueryHandler.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\GetAllBus\\GetAllBusQueryHandler.cs",
               "RelativeToolTip": "eBiletServer.Application\\Features\\Buses\\GetAllBus\\GetAllBusQueryHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T14:45:07.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteBusByIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\DeleteBusById\\DeleteBusByIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Buses\\DeleteBusById\\DeleteBusByIdCommandHandler.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\DeleteBusById\\DeleteBusByIdCommandHandler.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Buses\\DeleteBusById\\DeleteBusByIdCommandHandler.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:48:56.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateBusCommandHandler.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\UpdateBus\\UpdateBusCommandHandler.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Features\\Buses\\UpdateBus\\UpdateBusCommandHandler.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Features\\Buses\\UpdateBus\\UpdateBusCommandHandler.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Features\\Buses\\UpdateBus\\UpdateBusCommandHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwCIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:49:15.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Services\\RedisService.cs",
+              "RelativeDocumentMoniker": "eBiletServer.Application\\Services\\RedisService.cs",
+              "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Application\\Services\\RedisService.cs",
+              "RelativeToolTip": "eBiletServer.Application\\Services\\RedisService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:36:03.782Z",
               "EditorCaption": ""
             }
           ]

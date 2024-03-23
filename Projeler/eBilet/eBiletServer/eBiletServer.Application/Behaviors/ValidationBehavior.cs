@@ -22,6 +22,9 @@ public sealed class ValidationBehavior<TRequest, TResponse>(
             throw new ValidationException(failures);
         }
 
-        return await next();
+        var response = await next();
+
+        //uygulamanın sonu
+        return response;
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bh5HAfvhxMzSliPLSwua89KXNoQtA8TM+pF1SluxCdfKWSB/PXozOfLmgtqhQHDWTLiv24jg6BxjNSwfJsV1QA==",
+  "dgSpecHash": "Iue4y+AaI2yBWAIW5rumCCAMVgWcIo0zwCxkk5GpIEtoZ89m7hUvtf/3SkZeihvaGEvANRk4/R1pLDtzTOf60Q==",
   "success": true,
   "projectFilePath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\eBilet\\eBiletServer\\eBiletServer.Persistance\\eBiletServer.Persistance.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,9 @@
     "C:\\Users\\taner\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

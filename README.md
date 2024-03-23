@@ -1,8 +1,20 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
+## 27.03.2024 (Gelecek Ders) 
+- e-Bilet Projemize Devam Ediyoruz
+- Route'a Koltuk sisteminin eklenmesi
+- Koltuk Seçip Bileti Sepete Ekleme
+- Iyzico ile Ödeme Entegrasyonu
+- Bileti Satın Alma
 
-## 23.03.2024 (Gelecek Ders) 
+## 26.03.2024 (Gelecek Ders) 
+- Ebubekir Duman ile Proje Yapımı
+- Onur Melikoğlu ile Proje Yapımı
+
+## 23.03.2024
 - Redis Cache
 - Route CRUD İşlemleri (Backend + Frontend)
+- Ebubekir Duman ile Proje Yapımı
+- Onur Melikoğlu ile Proje Yapımı
 
 ## 22.03.2024
 - Cache (Memory & Redis)
