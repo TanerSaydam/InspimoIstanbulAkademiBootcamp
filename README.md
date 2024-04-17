@@ -1,12 +1,18 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
-## 27.03.2024 (Gelecek Ders) 
+## 18.04.2024 (Gelecek ders)
+- Product Management Task devam ediyoruz
+
+## 17.04.2024 
+- Product Management Task yapmaya başladık
+
+## 27.03.2024
 - e-Bilet Projemize Devam Ediyoruz
 - Route'a Koltuk sisteminin eklenmesi
 - Koltuk Seçip Bileti Sepete Ekleme
 - Iyzico ile Ödeme Entegrasyonu
 - Bileti Satın Alma
 
-## 26.03.2024 (Gelecek Ders) 
+## 26.03.2024
 - Ebubekir Duman ile Proje Yapımı
 - Onur Melikoğlu ile Proje Yapımı
 

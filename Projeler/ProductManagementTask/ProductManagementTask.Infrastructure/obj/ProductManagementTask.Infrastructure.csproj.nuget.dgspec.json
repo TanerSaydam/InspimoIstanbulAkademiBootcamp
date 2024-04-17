@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\ProductManagementTask.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\ProductManagementTask.Application.csproj",
+        "projectName": "ProductManagementTask.Application",
+        "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\ProductManagementTask.Application.csproj",
+        "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
+        "outputPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj": {
+                "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj",
+        "projectName": "ProductManagementTask.Domain",
+        "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj",
+        "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
+        "outputPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "TS.EntityFrameworkCore.GenericRepository": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj",
+        "projectName": "ProductManagementTask.Infrastructure",
+        "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
+        "outputPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\ProductManagementTask.Application.csproj": {
+                "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Application\\ProductManagementTask.Application.csproj"
+              },
+              "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj": {
+                "projectPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
