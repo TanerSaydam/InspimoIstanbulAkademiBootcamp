@@ -1,5 +1,11 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
-## 18.04.2024 (Gelecek ders)
+## 23.04.2024 (Gelecek ders)
+- RabbitMQ
+
+## 20.04.2024 
+- RabbitMQ
+
+## 18.04.2024 
 - Product Management Task devam ediyoruz
 
 ## 17.04.2024 

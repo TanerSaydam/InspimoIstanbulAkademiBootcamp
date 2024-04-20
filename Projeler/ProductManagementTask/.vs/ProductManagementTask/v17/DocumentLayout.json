@@ -3,39 +3,39 @@
   "WorkspaceRootPath": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|solutionrelative:productmanagementtask.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4E53FCC-021C-4A0A-98B6-1FCEC0FC16EC}|ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E53FCC-021C-4A0A-98B6-1FCEC0FC16EC}|ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj|solutionrelative:productmanagementtask.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.domain\\entities\\stockunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.domain\\entities\\stockunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|solutionrelative:productmanagementtask.domain\\entities\\stockunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|solutionrelative:productmanagementtask.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.domain\\entities\\stocktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.domain\\entities\\stocktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{245FEC22-3719-433B-A194-1716EC0A5F7A}|ProductManagementTask.Domain\\ProductManagementTask.Domain.csproj|solutionrelative:productmanagementtask.domain\\entities\\stocktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E53FCC-021C-4A0A-98B6-1FCEC0FC16EC}|ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4E53FCC-021C-4A0A-98B6-1FCEC0FC16EC}|ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E53FCC-021C-4A0A-98B6-1FCEC0FC16EC}|ProductManagementTask.Infrastructure\\ProductManagementTask.Infrastructure.csproj|solutionrelative:productmanagementtask.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.application\\features\\stocktypes\\getallstocktypes\\getallstocktypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.application\\features\\stocktypes\\getallstocktypes\\getallstocktypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|solutionrelative:productmanagementtask.application\\features\\stocktypes\\getallstocktypes\\getallstocktypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.application\\features\\stocktypes\\deletestocktypebyid\\deletestocktypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.application\\features\\stocktypes\\deletestocktypebyid\\deletestocktypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|solutionrelative:productmanagementtask.application\\features\\stocktypes\\deletestocktypebyid\\deletestocktypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.application\\features\\stocktypes\\updatestocktype\\updatestocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.application\\features\\stocktypes\\updatestocktype\\updatestocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|solutionrelative:productmanagementtask.application\\features\\stocktypes\\updatestocktype\\updatestocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|c:\\inspimoistanbulakademibootcamp\\projeler\\productmanagementtask\\productmanagementtask.application\\features\\stocktypes\\createstocktype\\createstocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\productmanagementtask.application\\features\\stocktypes\\createstocktype\\createstocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD5157D0-9986-44F3-90FD-DE67310165EC}|ProductManagementTask.Application\\ProductManagementTask.Application.csproj|solutionrelative:productmanagementtask.application\\features\\stocktypes\\createstocktype\\createstocktypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 267,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,26 +70,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\Entities\\Stock.cs",
               "RelativeDocumentMoniker": "ProductManagementTask.Domain\\Entities\\Stock.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\Entities\\Stock.cs",
               "RelativeToolTip": "ProductManagementTask.Domain\\Entities\\Stock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:44:27.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ProductManagementTask.Infrastructure\\Context\\ApplicationDbContext.cs",
               "ToolTip": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "ProductManagementTask.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCYAAAAPAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T16:41:35.68Z",
               "EditorCaption": ""
@@ -104,12 +104,11 @@
               "RelativeToolTip": "ProductManagementTask.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:37:01.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:37:01.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StockUnit.cs",
               "DocumentMoniker": "C:\\InspimoIstanbulAkademiBootcamp\\Projeler\\ProductManagementTask\\ProductManagementTask.Domain\\Entities\\StockUnit.cs",
               "RelativeDocumentMoniker": "ProductManagementTask.Domain\\Entities\\StockUnit.cs",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "ProductManagementTask.Domain\\Entities\\StockUnit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:33:56.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:33:56.843Z"
             },
             {
               "$type": "Document",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "ProductManagementTask.Domain\\Entities\\StockType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:33:55.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:33:55.221Z"
             },
             {
               "$type": "Document",
@@ -143,8 +140,7 @@
               "RelativeToolTip": "ProductManagementTask.Application\\Features\\StockTypes\\GetAllStockTypes\\GetAllStockTypesQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:27:58.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:27:58.43Z"
             },
             {
               "$type": "Document",
@@ -156,8 +152,7 @@
               "RelativeToolTip": "ProductManagementTask.Application\\Features\\StockTypes\\DeleteStockTypeById\\DeleteStockTypeByIdCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:17:53.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:17:53.288Z"
             },
             {
               "$type": "Document",
@@ -169,8 +164,7 @@
               "RelativeToolTip": "ProductManagementTask.Application\\Features\\StockTypes\\UpdateStockType\\UpdateStockTypeCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T15:50:17.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T15:50:17.323Z"
             },
             {
               "$type": "Document",
@@ -182,8 +176,7 @@
               "RelativeToolTip": "ProductManagementTask.Application\\Features\\StockTypes\\CreateStockType\\CreateStockTypeCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T15:39:38.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T15:39:38.569Z"
             }
           ]
         }
