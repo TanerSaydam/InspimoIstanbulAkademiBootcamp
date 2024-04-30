@@ -1,0 +1,13 @@
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\bin\Debug\net8.0\TaskManagerServer.Domain.deps.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\bin\Debug\net8.0\TaskManagerServer.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\bin\Debug\net8.0\TaskManagerServer.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.csproj.AssemblyReference.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\refint\TaskManagerServer.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\TaskManagerServer.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Domain\obj\Debug\net8.0\ref\TaskManagerServer.Domain.dll

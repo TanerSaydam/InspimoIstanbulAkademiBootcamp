@@ -1,0 +1,16 @@
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\bin\Debug\net8.0\TaskManagerServer.Application.deps.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\bin\Debug\net8.0\TaskManagerServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\bin\Debug\net8.0\TaskManagerServer.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\bin\Debug\net8.0\TaskManagerServer.Domain.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\bin\Debug\net8.0\TaskManagerServer.Domain.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.csproj.AssemblyReference.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.AssemblyInfoInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.AssemblyInfo.cs
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.csproj.CoreCompileInputs.cache
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.sourcelink.json
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskMana.258FFFBD.Up2Date
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\refint\TaskManagerServer.Application.dll
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\TaskManagerServer.Application.pdb
+C:\InspimoIstanbulAkademiBootcamp\Projeler\TaskManager\TaskManagerServer\TaskManagerServer.Application\obj\Debug\net8.0\ref\TaskManagerServer.Application.dll

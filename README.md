@@ -1,5 +1,14 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
-## 23.04.2024 (Gelecek ders)
+## 02.05.2024 (Gelecek Ders)
+- Unit Test
+
+## 01.05.2024 (Gelecek Ders)
+- SignalR
+
+## 30.04.2024 
+- SignalR
+
+## 23.04.2024 
 - RabbitMQ
 
 ## 20.04.2024 

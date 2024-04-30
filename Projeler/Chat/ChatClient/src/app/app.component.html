@@ -1,0 +1,22 @@
+<h1>Chat App</h1>
+<hr>
+<div>
+  <label>Kullanıcı Adı</label>
+  <input [(ngModel)]="chat.userName" type="text">
+</div>
+<div>
+  <label>Message</label>
+  <input [(ngModel)]="chat.message" type="text">
+</div>
+<div>
+  <button (click)="send()">Gönder</button>
+</div>
+<hr>
+<ul>
+  @for(c of chats; track c){
+    <li>
+      <b>{{c.userName}}</b>: {{c.message}} 
+      <span style="font-size: x-small;">{{c.date | date: 'HH:mm'}}</span>
+    </li>
+  }
+</ul>
