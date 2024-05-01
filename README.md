@@ -1,9 +1,9 @@
 # Inspimo & İstanbul Akademi Bootcamp Eğitimi
-## 02.05.2024 (Gelecek Ders)
-- Unit Test
+## 02.05.2024
+- Signal ile ChatApp
 
-## 01.05.2024 (Gelecek Ders)
-- SignalR
+## 01.05.2024
+- Signal ile ChatApp
 
 ## 30.04.2024 
 - SignalR
