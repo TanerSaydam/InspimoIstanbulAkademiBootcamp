@@ -1,4 +1,5 @@
 using ChatAppServer.WebAPI.Context;
+using ChatAppServer.WebAPI.Hubs;
 using DefaultCorsPolicyNugetPackage;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,8 @@ builder.Services
     });
 
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+builder.Services.AddSignalR();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -37,5 +40,7 @@ app.UseCors();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<ChatHub>("/chat-hub");
 
 app.Run();

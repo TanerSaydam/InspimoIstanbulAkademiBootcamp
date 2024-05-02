@@ -8,7 +8,8 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          
         </ul>
-        <strong class="me-1">Taner Saydam</strong>
+        <img src="https://localhost:7132/avatar/{{auth.user.avatarUrl}}" style="width: 50px; border-radius: 50px;">
+        <strong class="me-1">{{auth.user.fullName}}</strong>
         <button (click)="logout()" class="btn btn-outline-danger">
             <span>Çıkış Yap</span>
         </button>

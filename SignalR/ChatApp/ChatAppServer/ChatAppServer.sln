@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppServer.WebAPI", "..\SignalR\ChatApp\ChatAppServer\ChatAppServer.WebAPI\ChatAppServer.WebAPI.csproj", "{40AE5693-F4DB-4FCE-A34F-FE8AA6F8F422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatAppServer.WebAPI", "ChatAppServer.WebAPI\ChatAppServer.WebAPI.csproj", "{DC9A5F5E-1DF4-4D4E-885B-BFB563E94909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40AE5693-F4DB-4FCE-A34F-FE8AA6F8F422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40AE5693-F4DB-4FCE-A34F-FE8AA6F8F422}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40AE5693-F4DB-4FCE-A34F-FE8AA6F8F422}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40AE5693-F4DB-4FCE-A34F-FE8AA6F8F422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9A5F5E-1DF4-4D4E-885B-BFB563E94909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9A5F5E-1DF4-4D4E-885B-BFB563E94909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9A5F5E-1DF4-4D4E-885B-BFB563E94909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9A5F5E-1DF4-4D4E-885B-BFB563E94909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

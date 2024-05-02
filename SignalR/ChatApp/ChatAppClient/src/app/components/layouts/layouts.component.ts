@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
+import { AuthService } from '../../guards/auth.service';
 
 @Component({
   selector: 'app-layouts',
@@ -11,7 +12,8 @@ import { Router, RouterOutlet } from '@angular/router';
 export class LayoutsComponent {
 
   constructor(
-    private router:Router
+    private router:Router,
+    public auth: AuthService
   ){}
 
   logout(){
